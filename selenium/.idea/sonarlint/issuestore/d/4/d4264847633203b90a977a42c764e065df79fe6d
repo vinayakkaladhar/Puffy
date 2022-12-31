@@ -1,27 +1,0 @@
-
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ï‘‡ë
-j	java:S116"URename this field "_inventory" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éÓµ¾
-m	java:S116"XRename this field "_productsMenu" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Şï£Ë
-m	java:S116"XRename this field "_productsItem" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯Ø¦
-n	java:S116 "YRename this field "_createProduct" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÉÅÉÂ
-q	java:S116#"\Rename this field "_inputProductName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷»âÉ
-~	java:S116&"dRename this field "_inputProductNameForOrder" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÊÍæüÿÿÿÿ
-r	java:S116)"XRename this field "_confirmOrder" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™œ£©ûÿÿÿÿ
-h	java:S116,"NRename this field "_ok" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­Ãäøÿÿÿÿ
-h	java:S116/"SRename this field "_orderId" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§òĞÏ
-q	java:S1162"WRename this field "_saveProduct" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºØµ’ÿÿÿÿÿ
-j	java:S1165"URename this field "_orderDone" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªÂ÷
-l	java:S1168"WRename this field "_searchOrder" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ù°ÒÕ
-l	java:S116;"WRename this field "_editProduct" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´›ûö
-z	java:S116>"`Rename this field "_updateQuantityOption" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²–øÄùÿÿÿÿ
-y	java:S116A"_Rename this field "_updateQuantityCount" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ùøªèûÿÿÿÿ
-
-java:S1130D"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(à¼„Î
-Œ
-java:S1130I"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(¥‹à
-R
-java:S1128"5Remove this unused import 'org.openqa.selenium.Keys'.(§Õ8ëÇ¬ıÊ0
-Q
-java:S1128"/Remove this unused import 'java.time.Duration'.(ëá¯‰üÿÿÿÿ8ëÇ¬ıÊ0
-W
-java:S1128":Remove this unused import 'java.util.concurrent.TimeUnit'.(Æ™ş8¶â¬ıÊ0

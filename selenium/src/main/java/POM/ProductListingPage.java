@@ -60,6 +60,12 @@ public class ProductListingPage extends Utilities {
     @FindBy(xpath = ".//div[contains(@class,'cart_count')]/span")
     public WebElement _cartCount;
 
+    @FindBy(xpath = ".//div[@id='subscribe-popup']/div/div")
+    public WebElement _closeButton;
+
+    @FindBy(xpath = ".//a[contains(@class,'mini_cart')]")
+    public WebElement _cart;
+
     @FindBy(xpath = ".//div[contains(@class,'pd-variants__size')]")
     public WebElement _selectedProductSize;
 
@@ -75,7 +81,7 @@ public class ProductListingPage extends Utilities {
     @FindBy(xpath = ".//*[@class='delivery-date__text']/Strong")
     public WebElement _selectedProductShippingStatus;
 
-    @FindBy(xpath = ".//div[@class='cart-checkout__action']//span[@class='cart-checkout__button-title']")
+    @FindBy(xpath = ".//div[@class='cart-checkout__action']//span")
     public WebElement _checkoutButton;
 
     @FindBy(xpath = ".//div[contains(@class,'upsell-section__footer')]//div[contains(@class,'free-acc-box__title')]")
@@ -90,6 +96,7 @@ public class ProductListingPage extends Utilities {
     }
 
     public boolean verifyProductIsListed(String productName) throws InterruptedException {
+        Utilities.explicitWait(_inventory);
         return _inventory.isDisplayed();
     }
 
@@ -146,11 +153,21 @@ public class ProductListingPage extends Utilities {
     public void clickOnButton(String buttonName) throws InterruptedException {
         Utilities.explicitWait(driver.findElement(By.xpath(String.format(".//span[text()='%s']",buttonName))));
         driver.findElement(By.xpath(String.format(".//span[text()='%s']",buttonName))).click();
+        Thread.sleep(3000);
     }
 
     public String getCartCount() throws InterruptedException {
-        driver.navigate().refresh();
+        Utilities.explicitWait(_cartCount);
        return _cartCount.getText();
+    }
+
+    public void closeSubscriptionPopUp() throws InterruptedException {
+        try{
+            Utilities.explicitWait(_closeButton);
+            _closeButton.click();
+        }catch (Exception e){
+
+        }
     }
 
     public boolean verifyModelSelectedIs(String modelName) throws InterruptedException {
@@ -158,6 +175,7 @@ public class ProductListingPage extends Utilities {
     }
 
     public void clickOnModel(String modelName) throws InterruptedException {
+        Utilities.explicitWait(driver.findElement(By.xpath(String.format(".//div[contains(@class,'pd-buttons__item')]/label[text()='%s']",modelName))));
          driver.findElement(By.xpath(String.format(".//div[contains(@class,'pd-buttons__item')]/label[text()='%s']",modelName))).click();
     }
 
@@ -182,8 +200,14 @@ public class ProductListingPage extends Utilities {
     }
 
     public void clickOnCartAndCheckout() throws InterruptedException {
-         _cartCount.click();
-         Utilities.explicitWait(_checkoutButton);
+        Utilities.explicitWait(_cart);
+        _cart.click();
+        Utilities.explicitWait(_checkoutButton);
+        _checkoutButton.click();
+    }
+
+    public void clickOnCheckout() throws InterruptedException {
+        Utilities.explicitWait(_checkoutButton);
         _checkoutButton.click();
     }
 

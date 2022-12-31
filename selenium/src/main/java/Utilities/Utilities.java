@@ -5,6 +5,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.firefox.FirefoxProfile;
@@ -23,9 +24,11 @@ public class Utilities  {
     public static WebDriver getDriver(){
         String browser = System.getProperty("browser","chrome");
         if(browser.contains("chrome")){
+            ChromeOptions options = new ChromeOptions();
+            options.addArguments("--disable-notifications");
             WebDriverManager.chromedriver().setup();
             if(driver == null) {
-                driver = new ChromeDriver();
+                driver = new ChromeDriver(options);
                 driver.manage().window().maximize();
             }
         }
@@ -50,6 +53,11 @@ public class Utilities  {
     public static void scrollIntoView(WebElement element){
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("arguments[0].scrollIntoView(true);", element);
+    }
+
+    public static void jsClick(WebElement element) throws InterruptedException {
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("arguments[0].click();", element);
     }
 
     public static Properties readPropertiesFile(String fileName) throws IOException {

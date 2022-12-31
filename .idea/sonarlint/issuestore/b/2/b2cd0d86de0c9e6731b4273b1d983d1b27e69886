@@ -1,0 +1,16 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ï‘‡ë
+s	java:S116"^Rename this field "_totalCheckoutPrice" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è‚í±
+p	java:S116"[Rename this field "_checkedOutItems" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(é ¾Ë
+t	java:S116"_Rename this field "_contactEmailAddress" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬¯„Ş
+n	java:S116"TRename this field "_quantity" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êƒ¬–ùÿÿÿÿ
+e	java:S116"PRename this field "_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™÷õ
+f	java:S116""QRename this field "_price" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†“Ğú
+’
+java:S1130$"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(‡ÂĞşşÿÿÿÿ
+
+java:S1130("wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(ìÃœ
+
+java:S1130,"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(Ì¤¯
+™
+java:S11302"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(…ò²ïşÿÿÿÿ8µ‡·Ö0

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>OrderPlacement.java</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>13/3/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>14/3/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Dec 31 11:28:28 IST 2022</td>
+<td>Started on:</td><td>Sat Dec 31 15:26:24 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>92 seconds (92072 ms)</td>
+<tr><td>Total time:</td><td>93 seconds (93288 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,19 +75,23 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='OrderPlacement.verifyFreeAddonsAndPricePassedFromListingToCheckoutScreen()'><b>verifyFreeAddonsAndPricePassedFromListingToCheckoutScreen</b><br>Test class: OrderPlacement<br>Test method: Verify free addons and price of the selected product is displayed as the same in checkout screen<br/>
-<a href="#Output-1818556048" onClick='toggleBox("Output-1818556048", this, "Show output", "Hide output");'>Show output</a>
+<td title='OrderPlacement.verifyCheckoutFromProductsAddedToCart()'><b>verifyCheckoutFromProductsAddedToCart</b><br>Test class: OrderPlacement<br>Test method: Verify user is able to proceed to checkout screen using the add cart option<br/>
+<a href="#Output-993403681" onClick='toggleBox("Output-993403681", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1818556048" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1818556048">
+<a href="#Output-993403681" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-993403681">
 Navigated to: https://puffy.com/products/puffy-lux-mattress<br/>
-Clicked on model: Queen<br/>
-Model price: $2,249<br/>
- <a href='/selenium/screenshots/verifyFreeAddonsAndPricePassedFromListingToCheckoutScreen1672466361491.png'> <img src='/selenium/screenshots/verifyFreeAddonsAndPricePassedFromListingToCheckoutScreen1672466361491.png' height='400' width='800'/> </a>  <br/>
- <a href='/selenium/screenshots/verifyFreeAddonsAndPricePassedFromListingToCheckoutScreen1672466362055.png'> <img src='/selenium/screenshots/verifyFreeAddonsAndPricePassedFromListingToCheckoutScreen1672466362055.png' height='400' width='800'/> </a>  <br/>
+ <a href='/selenium/screenshots/verifyCheckoutFromProductsAddedToCart1672480601727.png'> <img src='/selenium/screenshots/verifyCheckoutFromProductsAddedToCart1672480601727.png' height='400' width='800'/> </a>  <br/>
+ <a href='/selenium/screenshots/verifyCheckoutFromProductsAddedToCart1672480603528.png'> <img src='/selenium/screenshots/verifyCheckoutFromProductsAddedToCart1672480603528.png' height='400' width='800'/> </a>  <br/>
 </div>
 </td>
-<td><div><pre>java.lang.NoClassDefFoundError: Could not initialize class org.openqa.selenium.WebDriverException
+<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=108.0.5359.124)
+Build info: version: &apos;4.0.0-alpha-6&apos;, revision: &apos;5f43a29cfc&apos;
+System info: host: &apos;Vinayak-Kaladhar&apos;, ip: &apos;fe80:0:0:0:880:d3f6:2191:2805%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.3.1&apos;, java.version: &apos;11.0.14.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.124, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /var/folders/xx/mjnyh9b14qz...}, goog:chromeOptions: {debuggerAddress: localhost:63377}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9582031918ac979437ae19c6bdf5e862
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -98,27 +102,39 @@ Model price: $2,249<br/>
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:381)
-	at org.openqa.selenium.By$ById.findElement(By.java:194)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy17.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
-	at org.openqa.selenium.support.ui.FluentWait.lambda$checkConditionInLoop$2(FluentWait.java:233)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1692)
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1818556048", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1818556048'><pre>java.lang.NoClassDefFoundError: Could not initialize class org.openqa.selenium.WebDriverException
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:316)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy17.click(Unknown Source)
+	at POM.ProductListingPage.clickOnCartAndCheckout(ProductListingPage.java:194)
+	at OrderPlacement.verifyCheckoutFromProductsAddedToCart(OrderPlacement.java:138)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</pre></div><a href='#' onClick='toggleBox("stack-trace993403681", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace993403681'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=108.0.5359.124)
+Build info: version: &apos;4.0.0-alpha-6&apos;, revision: &apos;5f43a29cfc&apos;
+System info: host: &apos;Vinayak-Kaladhar&apos;, ip: &apos;fe80:0:0:0:880:d3f6:2191:2805%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.3.1&apos;, java.version: &apos;11.0.14.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.124, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /var/folders/xx/mjnyh9b14qz...}, goog:chromeOptions: {debuggerAddress: localhost:63377}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9582031918ac979437ae19c6bdf5e862
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -129,46 +145,154 @@ Model price: $2,249<br/>
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:381)
-	at org.openqa.selenium.By$ById.findElement(By.java:194)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy17.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
-	at org.openqa.selenium.support.ui.FluentWait.lambda$checkConditionInLoop$2(FluentWait.java:233)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1692)
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:316)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy17.click(Unknown Source)
+	at POM.ProductListingPage.clickOnCartAndCheckout(ProductListingPage.java:194)
+	at OrderPlacement.verifyCheckoutFromProductsAddedToCart(OrderPlacement.java:138)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
 </pre></div></td>
-<td>2</td>
-<td>OrderPlacement@696da30b</td></tr>
+<td>10</td>
+<td>OrderPlacement@53976f5c</td></tr>
+<tr>
+<td title='OrderPlacement.verifyItemNameAndQuantityPassedFromListingToCheckoutScreen()'><b>verifyItemNameAndQuantityPassedFromListingToCheckoutScreen</b><br>Test class: OrderPlacement<br>Test method: Verify item name and quantity of the selected product is displayed as the same in checkout screen<br/>
+<a href="#Output-724768531" onClick='toggleBox("Output-724768531", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-724768531" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-724768531">
+Navigated to: https://puffy.com/products/puffy-lux-mattress<br/>
+ <a href='/selenium/screenshots/verifyItemNameAndQuantityPassedFromListingToCheckoutScreen1672480646342.png'> <img src='/selenium/screenshots/verifyItemNameAndQuantityPassedFromListingToCheckoutScreen1672480646342.png' height='400' width='800'/> </a>  <br/>
+ <a href='/selenium/screenshots/verifyItemNameAndQuantityPassedFromListingToCheckoutScreen1672480647197.png'> <img src='/selenium/screenshots/verifyItemNameAndQuantityPassedFromListingToCheckoutScreen1672480647197.png' height='400' width='800'/> </a>  <br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;label class=&quot;pd-buttons__label&quot; for=&quot;type_queen-60w-x-80l-x-12h&quot;&gt;...&lt;/label&gt; is not clickable at point (1285, 729). Other element would receive the click: &lt;div class=&quot;popup__overlay&quot; data-popup-close=&quot;&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=108.0.5359.124)
+Build info: version: &apos;4.0.0-alpha-6&apos;, revision: &apos;5f43a29cfc&apos;
+System info: host: &apos;Vinayak-Kaladhar&apos;, ip: &apos;fe80:0:0:0:880:d3f6:2191:2805%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.3.1&apos;, java.version: &apos;11.0.14.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.124, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /var/folders/xx/mjnyh9b14qz...}, goog:chromeOptions: {debuggerAddress: localhost:63377}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9582031918ac979437ae19c6bdf5e862
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:316)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at POM.ProductListingPage.clickOnModel(ProductListingPage.java:167)
+	at OrderPlacement.verifyItemNameAndQuantityPassedFromListingToCheckoutScreen(OrderPlacement.java:167)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</pre></div><a href='#' onClick='toggleBox("stack-trace724768531", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace724768531'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;label class=&quot;pd-buttons__label&quot; for=&quot;type_queen-60w-x-80l-x-12h&quot;&gt;...&lt;/label&gt; is not clickable at point (1285, 729). Other element would receive the click: &lt;div class=&quot;popup__overlay&quot; data-popup-close=&quot;&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=108.0.5359.124)
+Build info: version: &apos;4.0.0-alpha-6&apos;, revision: &apos;5f43a29cfc&apos;
+System info: host: &apos;Vinayak-Kaladhar&apos;, ip: &apos;fe80:0:0:0:880:d3f6:2191:2805%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.3.1&apos;, java.version: &apos;11.0.14.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.124, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /var/folders/xx/mjnyh9b14qz...}, goog:chromeOptions: {debuggerAddress: localhost:63377}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9582031918ac979437ae19c6bdf5e862
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:316)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at POM.ProductListingPage.clickOnModel(ProductListingPage.java:167)
+	at OrderPlacement.verifyItemNameAndQuantityPassedFromListingToCheckoutScreen(OrderPlacement.java:167)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</pre></div></td>
+<td>6</td>
+<td>OrderPlacement@53976f5c</td></tr>
 <tr>
 <td title='OrderPlacement.verifyMultipleProductsCanBeAddedToCart()'><b>verifyMultipleProductsCanBeAddedToCart</b><br>Test class: OrderPlacement<br>Test method: Verify user is able to add multiple products to cart for future purchase<br/>
-<a href="#Output-1347851219" onClick='toggleBox("Output-1347851219", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-592300992" onClick='toggleBox("Output-592300992", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1347851219" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1347851219">
+<a href="#Output-592300992" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-592300992">
 Navigated to: https://puffy.com/products/puffy-lux-mattress<br/>
 Product has been added to cart first time with items in cart count: 1<br/>
-Product has been added to cart second time<br/>
- <a href='/selenium/screenshots/verifyMultipleProductsCanBeAddedToCart1672466375818.png'> <img src='/selenium/screenshots/verifyMultipleProductsCanBeAddedToCart1672466375818.png' height='400' width='800'/> </a>  <br/>
- <a href='/selenium/screenshots/verifyMultipleProductsCanBeAddedToCart1672466377017.png'> <img src='/selenium/screenshots/verifyMultipleProductsCanBeAddedToCart1672466377017.png' height='400' width='800'/> </a>  <br/>
+ <a href='/selenium/screenshots/verifyMultipleProductsCanBeAddedToCart1672480655490.png'> <img src='/selenium/screenshots/verifyMultipleProductsCanBeAddedToCart1672480655490.png' height='400' width='800'/> </a>  <br/>
+ <a href='/selenium/screenshots/verifyMultipleProductsCanBeAddedToCart1672480656334.png'> <img src='/selenium/screenshots/verifyMultipleProductsCanBeAddedToCart1672480656334.png' height='400' width='800'/> </a>  <br/>
 </div>
 </td>
-<td><div><pre>java.lang.AssertionError: User is able to add multiple products to cart for future purchase expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:97)
-	at org.testng.Assert.failNotEquals(Assert.java:969)
-	at org.testng.Assert.assertTrue(Assert.java:43)
-	at OrderPlacement.verifyMultipleProductsCanBeAddedToCart(OrderPlacement.java:82)
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span class=&quot;text&quot;&gt;...&lt;/span&gt; is not clickable at point (1431, 869). Other element would receive the click: &lt;div class=&quot;popup__overlay&quot; data-popup-close=&quot;&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=108.0.5359.124)
+Build info: version: &apos;4.0.0-alpha-6&apos;, revision: &apos;5f43a29cfc&apos;
+System info: host: &apos;Vinayak-Kaladhar&apos;, ip: &apos;fe80:0:0:0:880:d3f6:2191:2805%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.3.1&apos;, java.version: &apos;11.0.14.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.124, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /var/folders/xx/mjnyh9b14qz...}, goog:chromeOptions: {debuggerAddress: localhost:63377}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9582031918ac979437ae19c6bdf5e862
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:316)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at POM.ProductListingPage.clickOnButton(ProductListingPage.java:152)
+	at OrderPlacement.verifyMultipleProductsCanBeAddedToCart(OrderPlacement.java:81)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -184,12 +308,28 @@ Product has been added to cart second time<br/>
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1347851219", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1347851219'><pre>java.lang.AssertionError: User is able to add multiple products to cart for future purchase expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:97)
-	at org.testng.Assert.failNotEquals(Assert.java:969)
-	at org.testng.Assert.assertTrue(Assert.java:43)
-	at OrderPlacement.verifyMultipleProductsCanBeAddedToCart(OrderPlacement.java:82)
+</pre></div><a href='#' onClick='toggleBox("stack-trace592300992", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace592300992'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span class=&quot;text&quot;&gt;...&lt;/span&gt; is not clickable at point (1431, 869). Other element would receive the click: &lt;div class=&quot;popup__overlay&quot; data-popup-close=&quot;&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=108.0.5359.124)
+Build info: version: &apos;4.0.0-alpha-6&apos;, revision: &apos;5f43a29cfc&apos;
+System info: host: &apos;Vinayak-Kaladhar&apos;, ip: &apos;fe80:0:0:0:880:d3f6:2191:2805%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.3.1&apos;, java.version: &apos;11.0.14.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.124, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /var/folders/xx/mjnyh9b14qz...}, goog:chromeOptions: {debuggerAddress: localhost:63377}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9582031918ac979437ae19c6bdf5e862
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:316)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at POM.ProductListingPage.clickOnButton(ProductListingPage.java:152)
+	at OrderPlacement.verifyMultipleProductsCanBeAddedToCart(OrderPlacement.java:81)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -206,84 +346,8 @@ Product has been added to cart second time<br/>
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:829)
 </pre></div></td>
-<td>9</td>
-<td>OrderPlacement@696da30b</td></tr>
-<tr>
-<td title='OrderPlacement.verifyProductCanBeCheckedOutUsingBuyNow()'><b>verifyProductCanBeCheckedOutUsingBuyNow</b><br>Test class: OrderPlacement<br>Test method: Verify user is able to guest checkout using buy now option<br/>
-<a href="#Output-1707774791" onClick='toggleBox("Output-1707774791", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1707774791" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1707774791">
-Navigated to: https://puffy.com/products/puffy-lux-mattress<br/>
-Product has been checked out using Buy Now option<br/>
- <a href='/selenium/screenshots/verifyProductCanBeCheckedOutUsingBuyNow1672466381070.png'> <img src='/selenium/screenshots/verifyProductCanBeCheckedOutUsingBuyNow1672466381070.png' height='400' width='800'/> </a>  <br/>
- <a href='/selenium/screenshots/verifyProductCanBeCheckedOutUsingBuyNow1672466386847.png'> <img src='/selenium/screenshots/verifyProductCanBeCheckedOutUsingBuyNow1672466386847.png' height='400' width='800'/> </a>  <br/>
-</div>
-</td>
-<td><div><pre>java.lang.NoClassDefFoundError: Could not initialize class org.openqa.selenium.NoSuchElementException
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:381)
-	at org.openqa.selenium.By$ById.findElement(By.java:194)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy17.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
-	at org.openqa.selenium.support.ui.FluentWait.lambda$checkConditionInLoop$2(FluentWait.java:233)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1692)
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1707774791", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1707774791'><pre>java.lang.NoClassDefFoundError: Could not initialize class org.openqa.selenium.NoSuchElementException
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:381)
-	at org.openqa.selenium.By$ById.findElement(By.java:194)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy17.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
-	at org.openqa.selenium.support.ui.FluentWait.lambda$checkConditionInLoop$2(FluentWait.java:233)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1692)
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
-</pre></div></td>
-<td>3</td>
-<td>OrderPlacement@696da30b</td></tr>
+<td>6</td>
+<td>OrderPlacement@53976f5c</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -293,24 +357,11 @@ Product has been checked out using Buy Now option<br/>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='OrderPlacement.verifyCheckoutFromProductsAddedToCart()'><b>verifyCheckoutFromProductsAddedToCart</b><br>Test class: OrderPlacement<br>Test method: Verify user is able to proceed to checkout screen using the add cart option<br/>
-<a href="#Output-2135735938" onClick='toggleBox("Output-2135735938", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-2135735938" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2135735938">
-Navigated to: https://puffy.com/products/puffy-lux-mattress<br/>
-Clicked on items added to cart<br/>
-</div>
-</td>
-<td></td>
-<td>18</td>
-<td>OrderPlacement@696da30b</td></tr>
-<tr>
 <td title='OrderPlacement.verifyDefaultSelectedProductSpecs()'><b>verifyDefaultSelectedProductSpecs</b><br>Test class: OrderPlacement<br>Test method: Verify twin mattress is selected by default and verify is specifications<br/>
-<a href="#Output-1661170565" onClick='toggleBox("Output-1661170565", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-651833740" onClick='toggleBox("Output-651833740", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1661170565" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1661170565">
+<a href="#Output-651833740" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-651833740">
 Navigated to: https://puffy.com/products/puffy-lux-mattress<br/>
 Default model Twin is selected<br/>
 Verified default model: Twin specifications<br/>
@@ -318,27 +369,27 @@ Verified default model: Twin specifications<br/>
 </td>
 <td></td>
 <td>2</td>
-<td>OrderPlacement@696da30b</td></tr>
+<td>OrderPlacement@53976f5c</td></tr>
 <tr>
 <td title='OrderPlacement.verifyDeliveryStatusAndEstimatedDeliveryDate()'><b>verifyDeliveryStatusAndEstimatedDeliveryDate</b><br>Test class: OrderPlacement<br>Test method: Verify delivery status and verify expected shipment date is not displayed in past<br/>
-<a href="#Output-584389868" onClick='toggleBox("Output-584389868", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-780602952" onClick='toggleBox("Output-780602952", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-584389868" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-584389868">
+<a href="#Output-780602952" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-780602952">
 Navigated to: https://puffy.com/products/puffy-lux-mattress<br/>
 Estimated month of delivery date is:January<br/>
 Delivery status is Ready to ship<br/>
 </div>
 </td>
 <td></td>
-<td>2</td>
-<td>OrderPlacement@696da30b</td></tr>
+<td>1</td>
+<td>OrderPlacement@53976f5c</td></tr>
 <tr>
 <td title='OrderPlacement.verifyDifferentSizesOfSameProductCanBeSelected()'><b>verifyDifferentSizesOfSameProductCanBeSelected</b><br>Test class: OrderPlacement<br>Test method: Verify user is able to select and view different sizes and their specs<br>Parameters: Twin XL, twin-xl, 38"W x 80"L x 12"H, $1,799<br/>
-<a href="#Output-1494290981" onClick='toggleBox("Output-1494290981", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1093934970" onClick='toggleBox("Output-1093934970", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1494290981" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1494290981">
+<a href="#Output-1093934970" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1093934970">
 Navigated to: https://puffy.com/products/puffy-lux-mattress<br/>
 Clicked on model: Twin XL<br/>
 Product size is displayed as: 38"W x 80"L x 12"H<br/>
@@ -347,13 +398,13 @@ Product price is displayed as: $1,799<br/>
 </td>
 <td></td>
 <td>2</td>
-<td>OrderPlacement@696da30b</td></tr>
+<td>OrderPlacement@53976f5c</td></tr>
 <tr>
 <td title='OrderPlacement.verifyDifferentSizesOfSameProductCanBeSelected()'><b>verifyDifferentSizesOfSameProductCanBeSelected</b><br>Test class: OrderPlacement<br>Test method: Verify user is able to select and view different sizes and their specs<br>Parameters: Full, full, 54"W x 75"L x 12"H, $2,049<br/>
-<a href="#Output-2032870926" onClick='toggleBox("Output-2032870926", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1538616683" onClick='toggleBox("Output-1538616683", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-2032870926" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2032870926">
+<a href="#Output-1538616683" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1538616683">
 Navigated to: https://puffy.com/products/puffy-lux-mattress<br/>
 Clicked on model: Full<br/>
 Product size is displayed as: 54"W x 75"L x 12"H<br/>
@@ -362,13 +413,13 @@ Product price is displayed as: $2,049<br/>
 </td>
 <td></td>
 <td>2</td>
-<td>OrderPlacement@696da30b</td></tr>
+<td>OrderPlacement@53976f5c</td></tr>
 <tr>
 <td title='OrderPlacement.verifyDifferentSizesOfSameProductCanBeSelected()'><b>verifyDifferentSizesOfSameProductCanBeSelected</b><br>Test class: OrderPlacement<br>Test method: Verify user is able to select and view different sizes and their specs<br>Parameters: Queen, queen, 60"W x 80"L x 12"H, $2,249<br/>
-<a href="#Output-374079337" onClick='toggleBox("Output-374079337", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-169965069" onClick='toggleBox("Output-169965069", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-374079337" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-374079337">
+<a href="#Output-169965069" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-169965069">
 Navigated to: https://puffy.com/products/puffy-lux-mattress<br/>
 Clicked on model: Queen<br/>
 Product size is displayed as: 60"W x 80"L x 12"H<br/>
@@ -377,13 +428,13 @@ Product price is displayed as: $2,249<br/>
 </td>
 <td></td>
 <td>2</td>
-<td>OrderPlacement@696da30b</td></tr>
+<td>OrderPlacement@53976f5c</td></tr>
 <tr>
 <td title='OrderPlacement.verifyDifferentSizesOfSameProductCanBeSelected()'><b>verifyDifferentSizesOfSameProductCanBeSelected</b><br>Test class: OrderPlacement<br>Test method: Verify user is able to select and view different sizes and their specs<br>Parameters: King, king, 76"W x 80"L x 12"H, $2,449<br/>
-<a href="#Output-1177115592" onClick='toggleBox("Output-1177115592", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-913738709" onClick='toggleBox("Output-913738709", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1177115592" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1177115592">
+<a href="#Output-913738709" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-913738709">
 Navigated to: https://puffy.com/products/puffy-lux-mattress<br/>
 Clicked on model: King<br/>
 Product size is displayed as: 76"W x 80"L x 12"H<br/>
@@ -392,13 +443,13 @@ Product price is displayed as: $2,449<br/>
 </td>
 <td></td>
 <td>2</td>
-<td>OrderPlacement@696da30b</td></tr>
+<td>OrderPlacement@53976f5c</td></tr>
 <tr>
 <td title='OrderPlacement.verifyDifferentSizesOfSameProductCanBeSelected()'><b>verifyDifferentSizesOfSameProductCanBeSelected</b><br>Test class: OrderPlacement<br>Test method: Verify user is able to select and view different sizes and their specs<br>Parameters: Cal King, cal-king, 72"W x 84"L x 12"H, $2,449<br/>
-<a href="#Output-1287678187" onClick='toggleBox("Output-1287678187", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1364703305" onClick='toggleBox("Output-1364703305", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1287678187" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1287678187">
+<a href="#Output-1364703305" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1364703305">
 Navigated to: https://puffy.com/products/puffy-lux-mattress<br/>
 Clicked on model: Cal King<br/>
 Product size is displayed as: 72"W x 84"L x 12"H<br/>
@@ -407,13 +458,13 @@ Product price is displayed as: $2,449<br/>
 </td>
 <td></td>
 <td>2</td>
-<td>OrderPlacement@696da30b</td></tr>
+<td>OrderPlacement@53976f5c</td></tr>
 <tr>
 <td title='OrderPlacement.verifyDifferentSizesOfSameProductCanBeSelected()'><b>verifyDifferentSizesOfSameProductCanBeSelected</b><br>Test class: OrderPlacement<br>Test method: Verify user is able to select and view different sizes and their specs<br>Parameters: Split King, split-king, 2 - 38"W x 80"L x 12"H, $3,598<br/>
-<a href="#Output-974266251" onClick='toggleBox("Output-974266251", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-111392793" onClick='toggleBox("Output-111392793", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-974266251" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-974266251">
+<a href="#Output-111392793" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-111392793">
 Navigated to: https://puffy.com/products/puffy-lux-mattress<br/>
 Clicked on model: Split King<br/>
 Product size is displayed as: 2 - 38"W x 80"L x 12"H<br/>
@@ -421,59 +472,88 @@ Product price is displayed as: $3,598<br/>
 </div>
 </td>
 <td></td>
-<td>3</td>
-<td>OrderPlacement@696da30b</td></tr>
+<td>2</td>
+<td>OrderPlacement@53976f5c</td></tr>
+<tr>
+<td title='OrderPlacement.verifyFreeAddonsAndPricePassedFromListingToCheckoutScreen()'><b>verifyFreeAddonsAndPricePassedFromListingToCheckoutScreen</b><br>Test class: OrderPlacement<br>Test method: Verify free addons and price of the selected product is displayed as the same in checkout screen<br/>
+<a href="#Output-392067073" onClick='toggleBox("Output-392067073", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-392067073" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-392067073">
+Navigated to: https://puffy.com/products/puffy-lux-mattress<br/>
+Clicked on model: Queen<br/>
+Model price: $2,249<br/>
+Navigated to checkout page<br/>
+Checked out screen is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>OrderPlacement@53976f5c</td></tr>
 <tr>
 <td title='OrderPlacement.verifyImageAndVideoSlidesOnSelection()'><b>verifyImageAndVideoSlidesOnSelection</b><br>Test class: OrderPlacement<br>Test method: Verify user is able to view and select multiple images and videos of the product<br/>
-<a href="#Output-1215678863" onClick='toggleBox("Output-1215678863", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-101076097" onClick='toggleBox("Output-101076097", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1215678863" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1215678863">
+<a href="#Output-101076097" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-101076097">
 Navigated to: https://puffy.com/products/puffy-lux-mattress<br/>
 Product images/video slides are displayed<br/>
 </div>
 </td>
 <td></td>
-<td>3</td>
-<td>OrderPlacement@696da30b</td></tr>
+<td>2</td>
+<td>OrderPlacement@53976f5c</td></tr>
 <tr>
-<td title='OrderPlacement.verifyProductFeaturesAndReasonsToBuy()'><b>verifyProductFeaturesAndReasonsToBuy</b><br>Test class: OrderPlacement<br>Test method: Verify product features and reasons to buy are displayed as expected<br/>
-<a href="#Output-1955986558" onClick='toggleBox("Output-1955986558", this, "Show output", "Hide output");'>Show output</a>
+<td title='OrderPlacement.verifyProductCanBeCheckedOutUsingBuyNow()'><b>verifyProductCanBeCheckedOutUsingBuyNow</b><br>Test class: OrderPlacement<br>Test method: Verify user is able to guest checkout using buy now option<br/>
+<a href="#Output-461353569" onClick='toggleBox("Output-461353569", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1955986558" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1955986558">
+<a href="#Output-461353569" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-461353569">
 Navigated to: https://puffy.com/products/puffy-lux-mattress<br/>
+Product has been checked out using Buy Now option<br/>
 </div>
 </td>
 <td></td>
-<td>3</td>
-<td>OrderPlacement@696da30b</td></tr>
+<td>9</td>
+<td>OrderPlacement@53976f5c</td></tr>
 <tr>
-<td title='OrderPlacement.verifyProductIsListedOnUsingDeepLink()'><b>verifyProductIsListedOnUsingDeepLink</b><br>Test class: OrderPlacement<br>Test method: Verify successful redirection to puffy lux mattress on using deep link<br/>
-<a href="#Output-1192929220" onClick='toggleBox("Output-1192929220", this, "Show output", "Hide output");'>Show output</a>
+<td title='OrderPlacement.verifyProductFeaturesAndReasonsToBuy()'><b>verifyProductFeaturesAndReasonsToBuy</b><br>Test class: OrderPlacement<br>Test method: Verify product features and reasons to buy are displayed as expected<br/>
+<a href="#Output-1205348902" onClick='toggleBox("Output-1205348902", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1192929220" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1192929220">
+<a href="#Output-1205348902" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1205348902">
 Navigated to: https://puffy.com/products/puffy-lux-mattress<br/>
 </div>
 </td>
 <td></td>
 <td>2</td>
-<td>OrderPlacement@696da30b</td></tr>
+<td>OrderPlacement@53976f5c</td></tr>
+<tr>
+<td title='OrderPlacement.verifyProductIsListedOnUsingDeepLink()'><b>verifyProductIsListedOnUsingDeepLink</b><br>Test class: OrderPlacement<br>Test method: Verify successful redirection to puffy lux mattress on using deep link<br/>
+<a href="#Output-611976303" onClick='toggleBox("Output-611976303", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-611976303" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-611976303">
+Navigated to: https://puffy.com/products/puffy-lux-mattress<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>OrderPlacement@53976f5c</td></tr>
 <tr>
 <td title='OrderPlacement.verifyProductReviewsRatingAndFAQs()'><b>verifyProductReviewsRatingAndFAQs</b><br>Test class: OrderPlacement<br>Test method: Verify user is able to view reviews, ratings and frequently asked questions<br/>
-<a href="#Output-156650053" onClick='toggleBox("Output-156650053", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1401163698" onClick='toggleBox("Output-1401163698", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-156650053" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-156650053">
+<a href="#Output-1401163698" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1401163698">
 Navigated to: https://puffy.com/products/puffy-lux-mattress<br/>
 Product rating is displayed as >= 4<br/>
 Review and FAQ sections are displayed<br/>
 </div>
 </td>
 <td></td>
-<td>7</td>
-<td>OrderPlacement@696da30b</td></tr>
+<td>5</td>
+<td>OrderPlacement@53976f5c</td></tr>
 </table><p>
 </body>
 </html>

@@ -1,0 +1,25 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ï‘‡ë
+j	java:S116"URename this field "_inventory" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éÓµ¾
+n	java:S116"TRename this field "_features" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğÍ¯’ûÿÿÿÿ
+p	java:S116"VRename this field "_reasonsTab" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶è‡¢ùÿÿÿÿ
+h	java:S116"SRename this field "_reasons" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õ¤¯ˆ
+r	java:S116""XRename this field "_productStars" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«ù†Ñÿÿÿÿÿ
+t	java:S116%"ZRename this field "_productReviews" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àŒš¨ûÿÿÿÿ
+{	java:S116("aRename this field "_productReviewsSection" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸«‹øÿÿÿÿ
+	java:S116+"eRename this field "_productReviewsSectionList" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Êë‚°8·ş²¶Ö0
+e	java:S116."PRename this field "_fAQS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ìƒç¼
+q	java:S1161"WRename this field "_fAQSSection" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü†©šıÿÿÿÿ
+q	java:S1164"]Rename this field "_fAQSQuestionsList" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯É2
+n	java:S1167"YRename this field "_productImages" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸¥ÄÚ
+y	java:S116:"_Rename this field "_currentProductImage" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´³‰Óøÿÿÿÿ
+j	java:S116="URename this field "_cartCount" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†°Õ±
+y	java:S116@"_Rename this field "_selectedProductSize" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ê†ãÿÿÿÿÿ
+z	java:S116C"`Rename this field "_selectedProductPrize" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üË‰…úÿÿÿÿ
+	java:S116F"jRename this field "_selectedProductDiscountedPrize" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßºâ
+€	java:S116I"kRename this field "_selectedProductShippingEstimate" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜¹ı
+ƒ	java:S116L"iRename this field "_selectedProductShippingStatus" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»¤éğùÿÿÿÿ
+t	java:S116O"ZRename this field "_checkoutButton" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õ…åºüÿÿÿÿ
+p	java:S116R"VRename this field "_freeBundle" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½ÙØØùÿÿÿÿ
+k	java:S116U"QRename this field "_popUp" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷Ö¨«şÿÿÿÿ
+>	java:S108~")Either remove or fill this block of code.(”ı¾
