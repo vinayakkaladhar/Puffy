@@ -1,0 +1,7 @@
+workflows:
+  UI-Automation:
+    name: complile the project
+    scripts:
+        - cd selenium && mvn test
+    artifacts:
+        - /target/*

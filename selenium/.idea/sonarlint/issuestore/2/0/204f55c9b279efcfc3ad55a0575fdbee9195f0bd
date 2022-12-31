@@ -1,0 +1,13 @@
+
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ï‘‡ë8Ê‰†ûÊ0
+z	java:S116"YRename this field "_loginUserName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†¦øÿÿÿÿ8Î‰†ûÊ0
+p	java:S116"TRename this field "_password" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷—Ü8Î‰†ûÊ0
+v	java:S116"URename this field "_inputDate" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äµèàÿÿÿÿÿ8Î‰†ûÊ0
+y	java:S116"XRename this field "_submitButton" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬İôïıÿÿÿÿ8Î‰†ûÊ0
+l	java:S116"PRename this field "_home" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ò«€ú8Ï‰†ûÊ0
+q	java:S116 "URename this field "_inventory" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éÓµ¾8ËÀ‘ıÊ0
+”
+java:S1130""wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(Å¸â§8ÛŸûÊ0
+j	java:S100'"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘¼ëä8ÛŸûÊ0
+”
+java:S1130'"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(‘¼ëä8ÕÀ‘ıÊ0

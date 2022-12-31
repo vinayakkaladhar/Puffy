@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="Utilities.ListenerTest"/>
+  </listeners>
+  <test thread-count="2" parallel="classes" name="OrderPlacement.java(failed)" verbose="0">
+    <classes>
+      <class name="OrderPlacement">
+        <methods>
+          <include name="getCredentials"/>
+          <include name="verifyFreeAddonsAndPricePassedFromListingToCheckoutScreen"/>
+          <include name="verifyMultipleProductsCanBeAddedToCart"/>
+          <include name="verifyProductCanBeCheckedOutUsingBuyNow"/>
+          <include name="setUpClose"/>
+          <include name="setUpOpen"/>
+        </methods>
+      </class> <!-- OrderPlacement -->
+    </classes>
+  </test> <!-- OrderPlacement.java(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

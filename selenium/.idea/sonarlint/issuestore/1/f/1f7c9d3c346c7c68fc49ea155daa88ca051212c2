@@ -1,0 +1,23 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ï‘‡ë
+n	java:S116"YRename this field "_createProduct" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÉÅÉÂ
+~	java:S116"dRename this field "_inputProductNameForOrder" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÊÍæüÿÿÿÿ
+r	java:S116"XRename this field "_confirmOrder" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™œ£©ûÿÿÿÿ
+h	java:S116"NRename this field "_ok" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­Ãäøÿÿÿÿ
+k	java:S116!"WRename this field "_applyButton" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶Æ
+h	java:S116$"SRename this field "_orderId" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§òĞÏ
+q	java:S116'"WRename this field "_saveProduct" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºØµ’ÿÿÿÿÿ
+j	java:S116*"URename this field "_orderDone" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªÂ÷
+n	java:S116-"YRename this field "_actionsOption" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡Ëèò
+l	java:S1160"WRename this field "_searchOrder" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ù°ÒÕ
+l	java:S1163"WRename this field "_editProduct" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´›ûö
+z	java:S1166"`Rename this field "_updateQuantityOption" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²–øÄùÿÿÿÿ
+y	java:S1169"_Rename this field "_updateQuantityCount" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ùøªèûÿÿÿÿ
+
+java:S1130H"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(·½üˆ
+’
+java:S1130O"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(‰·¤õıÿÿÿÿ
+’
+java:S1130W"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(·Üßİûÿÿÿÿ
+K
+java:S1128	"0Remove this unused import 'org.testng.Reporter'.(ÿ±«ùıÿÿÿÿ

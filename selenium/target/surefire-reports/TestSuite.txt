@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 92.692 s <<< FAILURE! - in TestSuite
+OrderPlacement.verifyFreeAddonsAndPricePassedFromListingToCheckoutScreen  Time elapsed: 10.53 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: Could not initialize class org.openqa.selenium.WebDriverException
+
+OrderPlacement.verifyMultipleProductsCanBeAddedToCart  Time elapsed: 11.412 s  <<< FAILURE!
+java.lang.AssertionError: User is able to add multiple products to cart for future purchase expected [true] but found [false]
+	at OrderPlacement.verifyMultipleProductsCanBeAddedToCart(OrderPlacement.java:82)
+
+OrderPlacement.verifyProductCanBeCheckedOutUsingBuyNow  Time elapsed: 9.809 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: Could not initialize class org.openqa.selenium.NoSuchElementException
+

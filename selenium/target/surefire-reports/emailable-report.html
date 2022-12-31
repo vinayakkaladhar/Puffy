@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">All Test Suite</th></tr>
+<tr><td><a href="#t0">OrderPlacement.java</a></td><td class="num">13</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">92,072</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">All Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">OrderPlacement.java &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">OrderPlacement</td><td><a href="#m0">verifyFreeAddonsAndPricePassedFromListingToCheckoutScreen</a></td><td rowspan="1">1672466351531</td><td rowspan="1">2479</td></tr><tr class="failedeven"><td><a href="#m1">verifyMultipleProductsCanBeAddedToCart</a></td><td rowspan="1">1672466365607</td><td rowspan="1">9055</td></tr><tr class="failedeven"><td><a href="#m2">verifyProductCanBeCheckedOutUsingBuyNow</a></td><td rowspan="1">1672466377039</td><td rowspan="1">3059</td></tr><tr><th colspan="4">OrderPlacement.java &#8212; passed</th></tr><tr class="passedeven"><td rowspan="13">OrderPlacement</td><td><a href="#m3">verifyCheckoutFromProductsAddedToCart</a></td><td rowspan="1">1672466312226</td><td rowspan="1">18716</td></tr><tr class="passedeven"><td><a href="#m4">verifyDefaultSelectedProductSpecs</a></td><td rowspan="1">1672466330997</td><td rowspan="1">2990</td></tr><tr class="passedeven"><td><a href="#m5">verifyDeliveryStatusAndEstimatedDeliveryDate</a></td><td rowspan="1">1672466334013</td><td rowspan="1">2037</td></tr><tr class="passedeven"><td><a href="#m6">verifyDifferentSizesOfSameProductCanBeSelected</a></td><td rowspan="6">1672466343440</td><td rowspan="6">2504</td></tr><tr class="passedeven"><td><a href="#m7">verifyDifferentSizesOfSameProductCanBeSelected</a></td></tr><tr class="passedeven"><td><a href="#m8">verifyDifferentSizesOfSameProductCanBeSelected</a></td></tr><tr class="passedeven"><td><a href="#m9">verifyDifferentSizesOfSameProductCanBeSelected</a></td></tr><tr class="passedeven"><td><a href="#m10">verifyDifferentSizesOfSameProductCanBeSelected</a></td></tr><tr class="passedeven"><td><a href="#m11">verifyDifferentSizesOfSameProductCanBeSelected</a></td></tr><tr class="passedeven"><td><a href="#m12">verifyImageAndVideoSlidesOnSelection</a></td><td rowspan="1">1672466362088</td><td rowspan="1">3489</td></tr><tr class="passedeven"><td><a href="#m13">verifyProductFeaturesAndReasonsToBuy</a></td><td rowspan="1">1672466386881</td><td rowspan="1">3682</td></tr><tr class="passedeven"><td><a href="#m14">verifyProductIsListedOnUsingDeepLink</a></td><td rowspan="1">1672466390581</td><td rowspan="1">2223</td></tr><tr class="passedeven"><td><a href="#m15">verifyProductReviewsRatingAndFAQs</a></td><td rowspan="1">1672466392823</td><td rowspan="1">7228</td></tr></tbody>
+</table>
+<h2>OrderPlacement.java</h2><h3 id="m0">OrderPlacement#verifyFreeAddonsAndPricePassedFromListingToCheckoutScreen</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Navigated to: https://puffy.com/products/puffy-lux-mattress<br/>Clicked on model: Queen<br/>Model price: $2,249<br/> <a href='/selenium/screenshots/verifyFreeAddonsAndPricePassedFromListingToCheckoutScreen1672466361491.png'> <img src='/selenium/screenshots/verifyFreeAddonsAndPricePassedFromListingToCheckoutScreen1672466361491.png' height='400' width='800'/> </a>  <br/> <a href='/selenium/screenshots/verifyFreeAddonsAndPricePassedFromListingToCheckoutScreen1672466362055.png'> <img src='/selenium/screenshots/verifyFreeAddonsAndPricePassedFromListingToCheckoutScreen1672466362055.png' height='400' width='800'/> </a>  </div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NoClassDefFoundError: Could not initialize class org.openqa.selenium.WebDriverException
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:381)
+	at org.openqa.selenium.By$ById.findElement(By.java:194)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy17.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.FluentWait.lambda$checkConditionInLoop$2(FluentWait.java:233)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1692)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">OrderPlacement#verifyMultipleProductsCanBeAddedToCart</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Navigated to: https://puffy.com/products/puffy-lux-mattress<br/>Product has been added to cart first time with items in cart count: 1<br/>Product has been added to cart second time<br/> <a href='/selenium/screenshots/verifyMultipleProductsCanBeAddedToCart1672466375818.png'> <img src='/selenium/screenshots/verifyMultipleProductsCanBeAddedToCart1672466375818.png' height='400' width='800'/> </a>  <br/> <a href='/selenium/screenshots/verifyMultipleProductsCanBeAddedToCart1672466377017.png'> <img src='/selenium/screenshots/verifyMultipleProductsCanBeAddedToCart1672466377017.png' height='400' width='800'/> </a>  </div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: User is able to add multiple products to cart for future purchase expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at OrderPlacement.verifyMultipleProductsCanBeAddedToCart(OrderPlacement.java:82)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">OrderPlacement#verifyProductCanBeCheckedOutUsingBuyNow</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Navigated to: https://puffy.com/products/puffy-lux-mattress<br/>Product has been checked out using Buy Now option<br/> <a href='/selenium/screenshots/verifyProductCanBeCheckedOutUsingBuyNow1672466381070.png'> <img src='/selenium/screenshots/verifyProductCanBeCheckedOutUsingBuyNow1672466381070.png' height='400' width='800'/> </a>  <br/> <a href='/selenium/screenshots/verifyProductCanBeCheckedOutUsingBuyNow1672466386847.png'> <img src='/selenium/screenshots/verifyProductCanBeCheckedOutUsingBuyNow1672466386847.png' height='400' width='800'/> </a>  </div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NoClassDefFoundError: Could not initialize class org.openqa.selenium.NoSuchElementException
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:381)
+	at org.openqa.selenium.By$ById.findElement(By.java:194)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy17.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.FluentWait.lambda$checkConditionInLoop$2(FluentWait.java:233)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1692)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">OrderPlacement#verifyCheckoutFromProductsAddedToCart</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Navigated to: https://puffy.com/products/puffy-lux-mattress<br/>Clicked on items added to cart</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">OrderPlacement#verifyDefaultSelectedProductSpecs</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Navigated to: https://puffy.com/products/puffy-lux-mattress<br/>Default model Twin is selected<br/>Verified default model: Twin specifications</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">OrderPlacement#verifyDeliveryStatusAndEstimatedDeliveryDate</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Navigated to: https://puffy.com/products/puffy-lux-mattress<br/>Estimated month of delivery date is:January<br/>Delivery status is Ready to ship</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">OrderPlacement#verifyDifferentSizesOfSameProductCanBeSelected</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>King</td><td>king</td><td>76&quot;W x 80&quot;L x 12&quot;H</td><td>$2,449</td></tr><tr><th colspan="4">Messages</th></tr><tr><td colspan="4"><div class="messages">Navigated to: https://puffy.com/products/puffy-lux-mattress<br/>Clicked on model: King<br/>Product size is displayed as: 76"W x 80"L x 12"H<br/>Product price is displayed as: $2,449</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">OrderPlacement#verifyDifferentSizesOfSameProductCanBeSelected</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>Queen</td><td>queen</td><td>60&quot;W x 80&quot;L x 12&quot;H</td><td>$2,249</td></tr><tr><th colspan="4">Messages</th></tr><tr><td colspan="4"><div class="messages">Navigated to: https://puffy.com/products/puffy-lux-mattress<br/>Clicked on model: Queen<br/>Product size is displayed as: 60"W x 80"L x 12"H<br/>Product price is displayed as: $2,249</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">OrderPlacement#verifyDifferentSizesOfSameProductCanBeSelected</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>Full</td><td>full</td><td>54&quot;W x 75&quot;L x 12&quot;H</td><td>$2,049</td></tr><tr><th colspan="4">Messages</th></tr><tr><td colspan="4"><div class="messages">Navigated to: https://puffy.com/products/puffy-lux-mattress<br/>Clicked on model: Full<br/>Product size is displayed as: 54"W x 75"L x 12"H<br/>Product price is displayed as: $2,049</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">OrderPlacement#verifyDifferentSizesOfSameProductCanBeSelected</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>Cal King</td><td>cal-king</td><td>72&quot;W x 84&quot;L x 12&quot;H</td><td>$2,449</td></tr><tr><th colspan="4">Messages</th></tr><tr><td colspan="4"><div class="messages">Navigated to: https://puffy.com/products/puffy-lux-mattress<br/>Clicked on model: Cal King<br/>Product size is displayed as: 72"W x 84"L x 12"H<br/>Product price is displayed as: $2,449</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">OrderPlacement#verifyDifferentSizesOfSameProductCanBeSelected</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>Twin XL</td><td>twin-xl</td><td>38&quot;W x 80&quot;L x 12&quot;H</td><td>$1,799</td></tr><tr><th colspan="4">Messages</th></tr><tr><td colspan="4"><div class="messages">Navigated to: https://puffy.com/products/puffy-lux-mattress<br/>Clicked on model: Twin XL<br/>Product size is displayed as: 38"W x 80"L x 12"H<br/>Product price is displayed as: $1,799</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">OrderPlacement#verifyDifferentSizesOfSameProductCanBeSelected</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>Split King</td><td>split-king</td><td>2 - 38&quot;W x 80&quot;L x 12&quot;H</td><td>$3,598</td></tr><tr><th colspan="4">Messages</th></tr><tr><td colspan="4"><div class="messages">Navigated to: https://puffy.com/products/puffy-lux-mattress<br/>Clicked on model: Split King<br/>Product size is displayed as: 2 - 38"W x 80"L x 12"H<br/>Product price is displayed as: $3,598</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">OrderPlacement#verifyImageAndVideoSlidesOnSelection</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Navigated to: https://puffy.com/products/puffy-lux-mattress<br/>Product images/video slides are displayed</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">OrderPlacement#verifyProductFeaturesAndReasonsToBuy</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Navigated to: https://puffy.com/products/puffy-lux-mattress</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">OrderPlacement#verifyProductIsListedOnUsingDeepLink</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Navigated to: https://puffy.com/products/puffy-lux-mattress</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">OrderPlacement#verifyProductReviewsRatingAndFAQs</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Navigated to: https://puffy.com/products/puffy-lux-mattress<br/>Product rating is displayed as >= 4<br/>Review and FAQ sections are displayed</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
