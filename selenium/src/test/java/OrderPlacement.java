@@ -173,13 +173,9 @@ public class OrderPlacement extends Utilities{
         productListingPage.clickOnCheckout();
         checkoutPage.enterDetails(properties.getProperty("username"));
         result = checkoutPage.verifyItemDetailsOnCheckoutScreen("1","Queen","$2,249");
-        System.out.println("result" + result);
         result = result && checkoutPage.verifyItemDetailsOnCheckoutScreen("2","White / Standard","Free");
-        System.out.println("result" + result);
         result = result && checkoutPage.verifyItemDetailsOnCheckoutScreen("1","Queen","Free");
-        System.out.println("result" + result);
         result = result && checkoutPage.verifyItemDetailsOnCheckoutScreen("1","Gray / Queen","Free");
-        System.out.println("result" + result);
         Reporter.log("Items are displayed in checkout screen");
         Assert.assertTrue(result, "Item name and quantity of the selected product is displayed as the same in checkout screen");
     }
