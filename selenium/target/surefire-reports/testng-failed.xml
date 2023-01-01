@@ -9,9 +9,7 @@
       <class name="OrderPlacement">
         <methods>
           <include name="getCredentials"/>
-          <include name="verifyMultipleProductsCanBeAddedToCart"/>
           <include name="setUpClose"/>
-          <include name="verifyCheckoutFromProductsAddedToCart"/>
           <include name="verifyItemNameAndQuantityPassedFromListingToCheckoutScreen"/>
           <include name="setUpOpen"/>
         </methods>

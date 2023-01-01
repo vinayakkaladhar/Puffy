@@ -1,37 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 17, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 93.725 s <<< FAILURE! - in TestSuite
-OrderPlacement.verifyCheckoutFromProductsAddedToCart  Time elapsed: 14.723 s  <<< FAILURE!
-org.openqa.selenium.ElementNotInteractableException: 
-element not interactable
-  (Session info: chrome=108.0.5359.124)
-Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
-System info: host: 'Vinayak-Kaladhar', ip: 'fe80:0:0:0:880:d3f6:2191:2805%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.3.1', java.version: '11.0.14.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.124, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /var/folders/xx/mjnyh9b14qz...}, goog:chromeOptions: {debuggerAddress: localhost:63377}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9582031918ac979437ae19c6bdf5e862
-	at OrderPlacement.verifyCheckoutFromProductsAddedToCart(OrderPlacement.java:138)
-
-OrderPlacement.verifyItemNameAndQuantityPassedFromListingToCheckoutScreen  Time elapsed: 7.822 s  <<< FAILURE!
-org.openqa.selenium.ElementClickInterceptedException: 
-element click intercepted: Element <label class="pd-buttons__label" for="type_queen-60w-x-80l-x-12h">...</label> is not clickable at point (1285, 729). Other element would receive the click: <div class="popup__overlay" data-popup-close=""></div>
-  (Session info: chrome=108.0.5359.124)
-Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
-System info: host: 'Vinayak-Kaladhar', ip: 'fe80:0:0:0:880:d3f6:2191:2805%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.3.1', java.version: '11.0.14.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.124, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /var/folders/xx/mjnyh9b14qz...}, goog:chromeOptions: {debuggerAddress: localhost:63377}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9582031918ac979437ae19c6bdf5e862
-	at OrderPlacement.verifyItemNameAndQuantityPassedFromListingToCheckoutScreen(OrderPlacement.java:167)
-
-OrderPlacement.verifyMultipleProductsCanBeAddedToCart  Time elapsed: 8.462 s  <<< FAILURE!
-org.openqa.selenium.ElementClickInterceptedException: 
-element click intercepted: Element <span class="text">...</span> is not clickable at point (1431, 869). Other element would receive the click: <div class="popup__overlay" data-popup-close=""></div>
-  (Session info: chrome=108.0.5359.124)
-Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
-System info: host: 'Vinayak-Kaladhar', ip: 'fe80:0:0:0:880:d3f6:2191:2805%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.3.1', java.version: '11.0.14.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.124, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /var/folders/xx/mjnyh9b14qz...}, goog:chromeOptions: {debuggerAddress: localhost:63377}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9582031918ac979437ae19c6bdf5e862
-	at OrderPlacement.verifyMultipleProductsCanBeAddedToCart(OrderPlacement.java:81)
+Tests run: 17, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 133.648 s <<< FAILURE! - in TestSuite
+OrderPlacement.verifyItemNameAndQuantityPassedFromListingToCheckoutScreen  Time elapsed: 19.912 s  <<< FAILURE!
+java.lang.AssertionError: Item name and quantity of the selected product is displayed as the same in checkout screen expected [true] but found [false]
+	at OrderPlacement.verifyItemNameAndQuantityPassedFromListingToCheckoutScreen(OrderPlacement.java:180)
 
