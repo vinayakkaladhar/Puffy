@@ -46,6 +46,7 @@ public class OrderPlacement extends Utilities{
         productListingPage.navigateTo(properties.getProperty("url"));
         Reporter.log("Navigated to: " + properties.getProperty("url"));
         result = productListingPage.verifyAdditionalDetailsDisplayed(properties.getProperty("about"),"Warranty. For life.",12);
+        Reporter.log("Additional details are displayed");
         Assert.assertTrue(result, "Product features and reasons to buy are displayed as expected");
     }
 

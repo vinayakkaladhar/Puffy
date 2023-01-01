@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 17, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 133.648 s <<< FAILURE! - in TestSuite
-OrderPlacement.verifyItemNameAndQuantityPassedFromListingToCheckoutScreen  Time elapsed: 19.912 s  <<< FAILURE!
-java.lang.AssertionError: Item name and quantity of the selected product is displayed as the same in checkout screen expected [true] but found [false]
-	at OrderPlacement.verifyItemNameAndQuantityPassedFromListingToCheckoutScreen(OrderPlacement.java:180)
+Tests run: 17, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 155.304 s <<< FAILURE! - in TestSuite
+OrderPlacement.verifyFreeAddonsAndPricePassedFromListingToCheckoutScreen  Time elapsed: 13.582 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: Could not initialize class org.openqa.selenium.WebDriverException
+	at OrderPlacement.verifyFreeAddonsAndPricePassedFromListingToCheckoutScreen(OrderPlacement.java:157)
 

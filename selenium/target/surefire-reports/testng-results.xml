@@ -110,7 +110,10 @@
       <![CDATA[Navigated to checkout page]]>
     </line>
     <line>
-      <![CDATA[Checked out screen is displayed]]>
+      <![CDATA[ <a href='/selenium/screenshots/verifyFreeAddonsAndPricePassedFromListingToCheckoutScreen1672583409902.png'> <img src='/selenium/screenshots/verifyFreeAddonsAndPricePassedFromListingToCheckoutScreen1672583409902.png' height='400' width='800'/> </a>  ]]>
+    </line>
+    <line>
+      <![CDATA[ <a href='/selenium/screenshots/verifyFreeAddonsAndPricePassedFromListingToCheckoutScreen1672583411088.png'> <img src='/selenium/screenshots/verifyFreeAddonsAndPricePassedFromListingToCheckoutScreen1672583411088.png' height='400' width='800'/> </a>  ]]>
     </line>
     <line>
       <![CDATA[Navigated to: https://puffy.com/products/puffy-lux-mattress]]>
@@ -126,12 +129,6 @@
     </line>
     <line>
       <![CDATA[Items are displayed in checkout screen]]>
-    </line>
-    <line>
-      <![CDATA[ <a href='/selenium/screenshots/verifyItemNameAndQuantityPassedFromListingToCheckoutScreen1672577424665.png'> <img src='/selenium/screenshots/verifyItemNameAndQuantityPassedFromListingToCheckoutScreen1672577424665.png' height='400' width='800'/> </a>  ]]>
-    </line>
-    <line>
-      <![CDATA[ <a href='/selenium/screenshots/verifyItemNameAndQuantityPassedFromListingToCheckoutScreen1672577425344.png'> <img src='/selenium/screenshots/verifyItemNameAndQuantityPassedFromListingToCheckoutScreen1672577425344.png' height='400' width='800'/> </a>  ]]>
     </line>
     <line>
       <![CDATA[Navigated to: https://puffy.com/products/puffy-lux-mattress]]>
@@ -164,20 +161,20 @@
       <![CDATA[Review and FAQ sections are displayed]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-01-01T18:18:51 IST" name="All Test Suite" finished-at="2023-01-01T18:21:04 IST" duration-ms="133092">
+  <suite started-at="2023-01-01T19:58:53 IST" name="All Test Suite" finished-at="2023-01-01T20:01:27 IST" duration-ms="154633">
     <groups>
     </groups>
-    <test started-at="2023-01-01T18:18:51 IST" name="OrderPlacement.java" finished-at="2023-01-01T18:21:04 IST" duration-ms="133092">
+    <test started-at="2023-01-01T19:58:53 IST" name="OrderPlacement.java" finished-at="2023-01-01T20:01:27 IST" duration-ms="154633">
       <class name="OrderPlacement">
-        <test-method is-config="true" signature="getCredentials()[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T18:18:51 IST" name="getCredentials" finished-at="2023-01-01T18:18:51 IST" duration-ms="8" status="PASS">
+        <test-method is-config="true" signature="getCredentials()[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T19:58:53 IST" name="getCredentials" finished-at="2023-01-01T19:58:53 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getCredentials -->
-        <test-method is-config="true" signature="setUpOpen()[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T18:18:51 IST" name="setUpOpen" finished-at="2023-01-01T18:18:56 IST" duration-ms="4709" status="PASS">
+        <test-method is-config="true" signature="setUpOpen()[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T19:58:53 IST" name="setUpOpen" finished-at="2023-01-01T19:58:58 IST" duration-ms="5622" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpOpen -->
-        <test-method signature="verifyCheckoutFromProductsAddedToCart()[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T18:18:56 IST" name="verifyCheckoutFromProductsAddedToCart" description="Verify user is able to proceed to checkout screen using the add cart option" finished-at="2023-01-01T18:19:20 IST" duration-ms="24148" status="PASS">
+        <test-method signature="verifyCheckoutFromProductsAddedToCart()[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T19:58:58 IST" name="verifyCheckoutFromProductsAddedToCart" description="Verify user is able to proceed to checkout screen using the add cart option" finished-at="2023-01-01T19:59:25 IST" duration-ms="26911" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Navigated to: https://puffy.com/products/puffy-lux-mattress]]>
@@ -187,11 +184,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyCheckoutFromProductsAddedToCart -->
-        <test-method is-config="true" signature="setUpOpen()[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T18:19:20 IST" name="setUpOpen" finished-at="2023-01-01T18:19:21 IST" duration-ms="1515" status="PASS">
+        <test-method is-config="true" signature="setUpOpen()[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T19:59:25 IST" name="setUpOpen" finished-at="2023-01-01T19:59:27 IST" duration-ms="1541" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpOpen -->
-        <test-method signature="verifyDefaultSelectedProductSpecs()[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T18:19:21 IST" name="verifyDefaultSelectedProductSpecs" description="Verify twin mattress is selected by default and verify its specifications" finished-at="2023-01-01T18:19:24 IST" duration-ms="2947" status="PASS">
+        <test-method signature="verifyDefaultSelectedProductSpecs()[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T19:59:27 IST" name="verifyDefaultSelectedProductSpecs" description="Verify twin mattress is selected by default and verify its specifications" finished-at="2023-01-01T19:59:30 IST" duration-ms="2984" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Navigated to: https://puffy.com/products/puffy-lux-mattress]]>
@@ -204,11 +201,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyDefaultSelectedProductSpecs -->
-        <test-method is-config="true" signature="setUpOpen()[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T18:19:24 IST" name="setUpOpen" finished-at="2023-01-01T18:19:25 IST" duration-ms="650" status="PASS">
+        <test-method is-config="true" signature="setUpOpen()[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T19:59:30 IST" name="setUpOpen" finished-at="2023-01-01T19:59:31 IST" duration-ms="723" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpOpen -->
-        <test-method signature="verifyDeliveryStatusAndEstimatedDeliveryDate()[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T18:19:25 IST" name="verifyDeliveryStatusAndEstimatedDeliveryDate" description="Verify delivery status and verify expected shipment date is not displayed in past" finished-at="2023-01-01T18:19:27 IST" duration-ms="2189" status="PASS">
+        <test-method signature="verifyDeliveryStatusAndEstimatedDeliveryDate()[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T19:59:31 IST" name="verifyDeliveryStatusAndEstimatedDeliveryDate" description="Verify delivery status and verify expected shipment date is not displayed in past" finished-at="2023-01-01T19:59:33 IST" duration-ms="2428" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Navigated to: https://puffy.com/products/puffy-lux-mattress]]>
@@ -221,11 +218,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyDeliveryStatusAndEstimatedDeliveryDate -->
-        <test-method is-config="true" signature="setUpOpen()[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T18:19:27 IST" name="setUpOpen" finished-at="2023-01-01T18:19:28 IST" duration-ms="445" status="PASS">
+        <test-method is-config="true" signature="setUpOpen()[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T19:59:33 IST" name="setUpOpen" finished-at="2023-01-01T19:59:33 IST" duration-ms="413" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpOpen -->
-        <test-method signature="verifyDifferentSizesOfSameProductCanBeSelected(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T18:19:28 IST" name="verifyDifferentSizesOfSameProductCanBeSelected" description="Verify user is able to select and view different sizes and their specs" data-provider="getModelsAndPricing" finished-at="2023-01-01T18:19:31 IST" duration-ms="3365" status="PASS">
+        <test-method signature="verifyDifferentSizesOfSameProductCanBeSelected(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T19:59:33 IST" name="verifyDifferentSizesOfSameProductCanBeSelected" description="Verify user is able to select and view different sizes and their specs" data-provider="getModelsAndPricing" finished-at="2023-01-01T19:59:38 IST" duration-ms="4024" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -263,11 +260,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyDifferentSizesOfSameProductCanBeSelected -->
-        <test-method is-config="true" signature="setUpOpen()[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T18:19:31 IST" name="setUpOpen" finished-at="2023-01-01T18:19:32 IST" duration-ms="1366" status="PASS">
+        <test-method is-config="true" signature="setUpOpen()[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T19:59:38 IST" name="setUpOpen" finished-at="2023-01-01T19:59:39 IST" duration-ms="1118" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpOpen -->
-        <test-method signature="verifyDifferentSizesOfSameProductCanBeSelected(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T18:19:32 IST" name="verifyDifferentSizesOfSameProductCanBeSelected" description="Verify user is able to select and view different sizes and their specs" data-provider="getModelsAndPricing" finished-at="2023-01-01T18:19:35 IST" duration-ms="2443" status="PASS">
+        <test-method signature="verifyDifferentSizesOfSameProductCanBeSelected(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T19:59:39 IST" name="verifyDifferentSizesOfSameProductCanBeSelected" description="Verify user is able to select and view different sizes and their specs" data-provider="getModelsAndPricing" finished-at="2023-01-01T19:59:42 IST" duration-ms="3629" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -305,11 +302,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyDifferentSizesOfSameProductCanBeSelected -->
-        <test-method is-config="true" signature="setUpOpen()[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T18:19:35 IST" name="setUpOpen" finished-at="2023-01-01T18:19:35 IST" duration-ms="508" status="PASS">
+        <test-method is-config="true" signature="setUpOpen()[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T19:59:42 IST" name="setUpOpen" finished-at="2023-01-01T19:59:43 IST" duration-ms="664" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpOpen -->
-        <test-method signature="verifyDifferentSizesOfSameProductCanBeSelected(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T18:19:35 IST" name="verifyDifferentSizesOfSameProductCanBeSelected" description="Verify user is able to select and view different sizes and their specs" data-provider="getModelsAndPricing" finished-at="2023-01-01T18:19:38 IST" duration-ms="2850" status="PASS">
+        <test-method signature="verifyDifferentSizesOfSameProductCanBeSelected(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T19:59:43 IST" name="verifyDifferentSizesOfSameProductCanBeSelected" description="Verify user is able to select and view different sizes and their specs" data-provider="getModelsAndPricing" finished-at="2023-01-01T19:59:46 IST" duration-ms="3113" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -347,11 +344,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyDifferentSizesOfSameProductCanBeSelected -->
-        <test-method is-config="true" signature="setUpOpen()[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T18:19:38 IST" name="setUpOpen" finished-at="2023-01-01T18:19:39 IST" duration-ms="446" status="PASS">
+        <test-method is-config="true" signature="setUpOpen()[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T19:59:46 IST" name="setUpOpen" finished-at="2023-01-01T19:59:47 IST" duration-ms="894" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpOpen -->
-        <test-method signature="verifyDifferentSizesOfSameProductCanBeSelected(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T18:19:39 IST" name="verifyDifferentSizesOfSameProductCanBeSelected" description="Verify user is able to select and view different sizes and their specs" data-provider="getModelsAndPricing" finished-at="2023-01-01T18:19:41 IST" duration-ms="2427" status="PASS">
+        <test-method signature="verifyDifferentSizesOfSameProductCanBeSelected(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T19:59:47 IST" name="verifyDifferentSizesOfSameProductCanBeSelected" description="Verify user is able to select and view different sizes and their specs" data-provider="getModelsAndPricing" finished-at="2023-01-01T19:59:50 IST" duration-ms="2691" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -389,11 +386,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyDifferentSizesOfSameProductCanBeSelected -->
-        <test-method is-config="true" signature="setUpOpen()[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T18:19:41 IST" name="setUpOpen" finished-at="2023-01-01T18:19:42 IST" duration-ms="723" status="PASS">
+        <test-method is-config="true" signature="setUpOpen()[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T19:59:50 IST" name="setUpOpen" finished-at="2023-01-01T19:59:50 IST" duration-ms="687" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpOpen -->
-        <test-method signature="verifyDifferentSizesOfSameProductCanBeSelected(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T18:19:42 IST" name="verifyDifferentSizesOfSameProductCanBeSelected" description="Verify user is able to select and view different sizes and their specs" data-provider="getModelsAndPricing" finished-at="2023-01-01T18:19:44 IST" duration-ms="2635" status="PASS">
+        <test-method signature="verifyDifferentSizesOfSameProductCanBeSelected(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T19:59:50 IST" name="verifyDifferentSizesOfSameProductCanBeSelected" description="Verify user is able to select and view different sizes and their specs" data-provider="getModelsAndPricing" finished-at="2023-01-01T19:59:53 IST" duration-ms="2760" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -431,11 +428,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyDifferentSizesOfSameProductCanBeSelected -->
-        <test-method is-config="true" signature="setUpOpen()[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T18:19:44 IST" name="setUpOpen" finished-at="2023-01-01T18:19:45 IST" duration-ms="633" status="PASS">
+        <test-method is-config="true" signature="setUpOpen()[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T19:59:53 IST" name="setUpOpen" finished-at="2023-01-01T19:59:54 IST" duration-ms="734" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpOpen -->
-        <test-method signature="verifyDifferentSizesOfSameProductCanBeSelected(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T18:19:45 IST" name="verifyDifferentSizesOfSameProductCanBeSelected" description="Verify user is able to select and view different sizes and their specs" data-provider="getModelsAndPricing" finished-at="2023-01-01T18:19:48 IST" duration-ms="2906" status="PASS">
+        <test-method signature="verifyDifferentSizesOfSameProductCanBeSelected(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T19:59:54 IST" name="verifyDifferentSizesOfSameProductCanBeSelected" description="Verify user is able to select and view different sizes and their specs" data-provider="getModelsAndPricing" finished-at="2023-01-01T19:59:56 IST" duration-ms="2550" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -473,58 +470,37 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyDifferentSizesOfSameProductCanBeSelected -->
-        <test-method is-config="true" signature="setUpOpen()[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T18:19:48 IST" name="setUpOpen" finished-at="2023-01-01T18:19:49 IST" duration-ms="678" status="PASS">
+        <test-method is-config="true" signature="setUpOpen()[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T19:59:56 IST" name="setUpOpen" finished-at="2023-01-01T19:59:57 IST" duration-ms="663" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpOpen -->
-        <test-method signature="verifyFreeAddonsAndPricePassedFromListingToCheckoutScreen()[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T18:19:49 IST" name="verifyFreeAddonsAndPricePassedFromListingToCheckoutScreen" description="Verify free addons and price of the selected product is displayed as the same in checkout screen" finished-at="2023-01-01T18:19:59 IST" duration-ms="10581" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Navigated to: https://puffy.com/products/puffy-lux-mattress]]>
-            </line>
-            <line>
-              <![CDATA[Clicked on model: Queen]]>
-            </line>
-            <line>
-              <![CDATA[Model price: $2,249]]>
-            </line>
-            <line>
-              <![CDATA[Navigated to checkout page]]>
-            </line>
-            <line>
-              <![CDATA[Checked out screen is displayed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- verifyFreeAddonsAndPricePassedFromListingToCheckoutScreen -->
-        <test-method is-config="true" signature="setUpOpen()[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T18:19:59 IST" name="setUpOpen" finished-at="2023-01-01T18:20:00 IST" duration-ms="918" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpOpen -->
-        <test-method signature="verifyImageAndVideoSlidesOnSelection()[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T18:20:00 IST" name="verifyImageAndVideoSlidesOnSelection" description="Verify user is able to view and select multiple slide images and videos of the product" finished-at="2023-01-01T18:20:04 IST" duration-ms="4171" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Navigated to: https://puffy.com/products/puffy-lux-mattress]]>
-            </line>
-            <line>
-              <![CDATA[Product images/video slides are displayed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- verifyImageAndVideoSlidesOnSelection -->
-        <test-method is-config="true" signature="setUpOpen()[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T18:20:04 IST" name="setUpOpen" finished-at="2023-01-01T18:20:05 IST" duration-ms="742" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpOpen -->
-        <test-method signature="verifyItemNameAndQuantityPassedFromListingToCheckoutScreen()[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T18:20:05 IST" name="verifyItemNameAndQuantityPassedFromListingToCheckoutScreen" description="Verify item name and quantity of the selected product is displayed as the same in checkout screen" finished-at="2023-01-01T18:20:23 IST" duration-ms="17825" status="FAIL">
-          <exception class="java.lang.AssertionError">
+        <test-method signature="verifyFreeAddonsAndPricePassedFromListingToCheckoutScreen()[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T19:59:57 IST" name="verifyFreeAddonsAndPricePassedFromListingToCheckoutScreen" description="Verify free addons and price of the selected product is displayed as the same in checkout screen" finished-at="2023-01-01T20:00:08 IST" duration-ms="10823" status="FAIL">
+          <exception class="java.lang.NoClassDefFoundError">
             <message>
-              <![CDATA[Item name and quantity of the selected product is displayed as the same in checkout screen expected [true] but found [false]]]>
+              <![CDATA[Could not initialize class org.openqa.selenium.WebDriverException]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Item name and quantity of the selected product is displayed as the same in checkout screen expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:97)
-at org.testng.Assert.failNotEquals(Assert.java:969)
-at org.testng.Assert.assertTrue(Assert.java:43)
-at OrderPlacement.verifyItemNameAndQuantityPassedFromListingToCheckoutScreen(OrderPlacement.java:180)
+              <![CDATA[java.lang.NoClassDefFoundError: Could not initialize class org.openqa.selenium.WebDriverException
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:316)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:115)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at com.sun.proxy.$Proxy17.sendKeys(Unknown Source)
+at POM.CheckoutPage.enterDetails(CheckoutPage.java:55)
+at OrderPlacement.verifyFreeAddonsAndPricePassedFromListingToCheckoutScreen(OrderPlacement.java:157)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -542,7 +518,47 @@ at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecut
 at java.base/java.lang.Thread.run(Thread.java:829)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Navigated to: https://puffy.com/products/puffy-lux-mattress]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on model: Queen]]>
+            </line>
+            <line>
+              <![CDATA[Model price: $2,249]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to checkout page]]>
+            </line>
+            <line>
+              <![CDATA[ <a href='/selenium/screenshots/verifyFreeAddonsAndPricePassedFromListingToCheckoutScreen1672583409902.png'> <img src='/selenium/screenshots/verifyFreeAddonsAndPricePassedFromListingToCheckoutScreen1672583409902.png' height='400' width='800'/> </a>  ]]>
+            </line>
+            <line>
+              <![CDATA[ <a href='/selenium/screenshots/verifyFreeAddonsAndPricePassedFromListingToCheckoutScreen1672583411088.png'> <img src='/selenium/screenshots/verifyFreeAddonsAndPricePassedFromListingToCheckoutScreen1672583411088.png' height='400' width='800'/> </a>  ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyFreeAddonsAndPricePassedFromListingToCheckoutScreen -->
+        <test-method is-config="true" signature="setUpOpen()[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T20:00:11 IST" name="setUpOpen" finished-at="2023-01-01T20:00:11 IST" duration-ms="607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpOpen -->
+        <test-method signature="verifyImageAndVideoSlidesOnSelection()[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T20:00:11 IST" name="verifyImageAndVideoSlidesOnSelection" description="Verify user is able to view and select multiple slide images and videos of the product" finished-at="2023-01-01T20:00:16 IST" duration-ms="4318" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigated to: https://puffy.com/products/puffy-lux-mattress]]>
+            </line>
+            <line>
+              <![CDATA[Product images/video slides are displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyImageAndVideoSlidesOnSelection -->
+        <test-method is-config="true" signature="setUpOpen()[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T20:00:16 IST" name="setUpOpen" finished-at="2023-01-01T20:00:16 IST" duration-ms="483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpOpen -->
+        <test-method signature="verifyItemNameAndQuantityPassedFromListingToCheckoutScreen()[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T20:00:16 IST" name="verifyItemNameAndQuantityPassedFromListingToCheckoutScreen" description="Verify item name and quantity of the selected product is displayed as the same in checkout screen" finished-at="2023-01-01T20:00:38 IST" duration-ms="21677" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Navigated to: https://puffy.com/products/puffy-lux-mattress]]>
@@ -553,19 +569,13 @@ at java.base/java.lang.Thread.run(Thread.java:829)
             <line>
               <![CDATA[Items are displayed in checkout screen]]>
             </line>
-            <line>
-              <![CDATA[ <a href='/selenium/screenshots/verifyItemNameAndQuantityPassedFromListingToCheckoutScreen1672577424665.png'> <img src='/selenium/screenshots/verifyItemNameAndQuantityPassedFromListingToCheckoutScreen1672577424665.png' height='400' width='800'/> </a>  ]]>
-            </line>
-            <line>
-              <![CDATA[ <a href='/selenium/screenshots/verifyItemNameAndQuantityPassedFromListingToCheckoutScreen1672577425344.png'> <img src='/selenium/screenshots/verifyItemNameAndQuantityPassedFromListingToCheckoutScreen1672577425344.png' height='400' width='800'/> </a>  ]]>
-            </line>
           </reporter-output>
         </test-method> <!-- verifyItemNameAndQuantityPassedFromListingToCheckoutScreen -->
-        <test-method is-config="true" signature="setUpOpen()[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T18:20:25 IST" name="setUpOpen" finished-at="2023-01-01T18:20:25 IST" duration-ms="624" status="PASS">
+        <test-method is-config="true" signature="setUpOpen()[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T20:00:38 IST" name="setUpOpen" finished-at="2023-01-01T20:00:38 IST" duration-ms="630" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpOpen -->
-        <test-method signature="verifyMultipleProductsCanBeAddedToCart()[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T18:20:25 IST" name="verifyMultipleProductsCanBeAddedToCart" description="Verify user is able to add multiple products to the cart for future purchase" finished-at="2023-01-01T18:20:35 IST" duration-ms="9641" status="PASS">
+        <test-method signature="verifyMultipleProductsCanBeAddedToCart()[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T20:00:38 IST" name="verifyMultipleProductsCanBeAddedToCart" description="Verify user is able to add multiple products to the cart for future purchase" finished-at="2023-01-01T20:00:48 IST" duration-ms="9940" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Navigated to: https://puffy.com/products/puffy-lux-mattress]]>
@@ -578,11 +588,11 @@ at java.base/java.lang.Thread.run(Thread.java:829)
             </line>
           </reporter-output>
         </test-method> <!-- verifyMultipleProductsCanBeAddedToCart -->
-        <test-method is-config="true" signature="setUpOpen()[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T18:20:35 IST" name="setUpOpen" finished-at="2023-01-01T18:20:36 IST" duration-ms="502" status="PASS">
+        <test-method is-config="true" signature="setUpOpen()[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T20:00:48 IST" name="setUpOpen" finished-at="2023-01-01T20:00:49 IST" duration-ms="402" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpOpen -->
-        <test-method signature="verifyProductCanBeCheckedOutUsingBuyNow()[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T18:20:36 IST" name="verifyProductCanBeCheckedOutUsingBuyNow" description="Verify user is able to guest checkout using buy now option" finished-at="2023-01-01T18:20:49 IST" duration-ms="13677" status="PASS">
+        <test-method signature="verifyProductCanBeCheckedOutUsingBuyNow()[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T20:00:49 IST" name="verifyProductCanBeCheckedOutUsingBuyNow" description="Verify user is able to guest checkout using buy now option" finished-at="2023-01-01T20:01:11 IST" duration-ms="22361" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Navigated to: https://puffy.com/products/puffy-lux-mattress]]>
@@ -592,33 +602,33 @@ at java.base/java.lang.Thread.run(Thread.java:829)
             </line>
           </reporter-output>
         </test-method> <!-- verifyProductCanBeCheckedOutUsingBuyNow -->
-        <test-method is-config="true" signature="setUpOpen()[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T18:20:49 IST" name="setUpOpen" finished-at="2023-01-01T18:20:50 IST" duration-ms="997" status="PASS">
+        <test-method is-config="true" signature="setUpOpen()[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T20:01:11 IST" name="setUpOpen" finished-at="2023-01-01T20:01:12 IST" duration-ms="1013" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpOpen -->
-        <test-method signature="verifyProductFeaturesAndReasonsToBuy()[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T18:20:50 IST" name="verifyProductFeaturesAndReasonsToBuy" description="Verify product features and reasons to buy are displayed as expected" finished-at="2023-01-01T18:20:54 IST" duration-ms="3478" status="PASS">
+        <test-method signature="verifyProductFeaturesAndReasonsToBuy()[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T20:01:12 IST" name="verifyProductFeaturesAndReasonsToBuy" description="Verify product features and reasons to buy are displayed as expected" finished-at="2023-01-01T20:01:17 IST" duration-ms="4672" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Navigated to: https://puffy.com/products/puffy-lux-mattress]]>
             </line>
           </reporter-output>
         </test-method> <!-- verifyProductFeaturesAndReasonsToBuy -->
-        <test-method is-config="true" signature="setUpOpen()[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T18:20:54 IST" name="setUpOpen" finished-at="2023-01-01T18:20:55 IST" duration-ms="853" status="PASS">
+        <test-method is-config="true" signature="setUpOpen()[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T20:01:17 IST" name="setUpOpen" finished-at="2023-01-01T20:01:17 IST" duration-ms="422" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpOpen -->
-        <test-method signature="verifyProductIsListedOnUsingDeepLink()[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T18:20:55 IST" name="verifyProductIsListedOnUsingDeepLink" description="Verify successful redirection to puffy lux mattress on using deep link" finished-at="2023-01-01T18:20:57 IST" duration-ms="2208" status="PASS">
+        <test-method signature="verifyProductIsListedOnUsingDeepLink()[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T20:01:17 IST" name="verifyProductIsListedOnUsingDeepLink" description="Verify successful redirection to puffy lux mattress on using deep link" finished-at="2023-01-01T20:01:19 IST" duration-ms="2123" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Navigated to: https://puffy.com/products/puffy-lux-mattress]]>
             </line>
           </reporter-output>
         </test-method> <!-- verifyProductIsListedOnUsingDeepLink -->
-        <test-method is-config="true" signature="setUpOpen()[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T18:20:57 IST" name="setUpOpen" finished-at="2023-01-01T18:20:57 IST" duration-ms="452" status="PASS">
+        <test-method is-config="true" signature="setUpOpen()[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T20:01:19 IST" name="setUpOpen" finished-at="2023-01-01T20:01:20 IST" duration-ms="399" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpOpen -->
-        <test-method signature="verifyProductReviewsRatingAndFAQs()[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T18:20:57 IST" name="verifyProductReviewsRatingAndFAQs" description="Verify user is able to view reviews, ratings and frequently asked questions of the product" finished-at="2023-01-01T18:21:04 IST" duration-ms="6526" status="PASS">
+        <test-method signature="verifyProductReviewsRatingAndFAQs()[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T20:01:20 IST" name="verifyProductReviewsRatingAndFAQs" description="Verify user is able to view reviews, ratings and frequently asked questions of the product" finished-at="2023-01-01T20:01:27 IST" duration-ms="7622" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Navigated to: https://puffy.com/products/puffy-lux-mattress]]>
@@ -631,7 +641,7 @@ at java.base/java.lang.Thread.run(Thread.java:829)
             </line>
           </reporter-output>
         </test-method> <!-- verifyProductReviewsRatingAndFAQs -->
-        <test-method is-config="true" signature="setUpClose()[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T18:21:04 IST" name="setUpClose" finished-at="2023-01-01T18:21:04 IST" duration-ms="174" status="PASS">
+        <test-method is-config="true" signature="setUpClose()[pri:0, instance:OrderPlacement@53976f5c]" started-at="2023-01-01T20:01:27 IST" name="setUpClose" finished-at="2023-01-01T20:01:27 IST" duration-ms="179" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClose -->

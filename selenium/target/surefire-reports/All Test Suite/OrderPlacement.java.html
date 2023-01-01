@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>16/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Jan 01 18:18:51 IST 2023</td>
+<td>Started on:</td><td>Sun Jan 01 19:58:53 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>133 seconds (133092 ms)</td>
+<tr><td>Total time:</td><td>154 seconds (154633 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,23 +75,40 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='OrderPlacement.verifyItemNameAndQuantityPassedFromListingToCheckoutScreen()'><b>verifyItemNameAndQuantityPassedFromListingToCheckoutScreen</b><br>Test class: OrderPlacement<br>Test method: Verify item name and quantity of the selected product is displayed as the same in checkout screen<br/>
-<a href="#Output-2006908827" onClick='toggleBox("Output-2006908827", this, "Show output", "Hide output");'>Show output</a>
+<td title='OrderPlacement.verifyFreeAddonsAndPricePassedFromListingToCheckoutScreen()'><b>verifyFreeAddonsAndPricePassedFromListingToCheckoutScreen</b><br>Test class: OrderPlacement<br>Test method: Verify free addons and price of the selected product is displayed as the same in checkout screen<br/>
+<a href="#Output-2091068638" onClick='toggleBox("Output-2091068638", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-2006908827" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2006908827">
+<a href="#Output-2091068638" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2091068638">
 Navigated to: https://puffy.com/products/puffy-lux-mattress<br/>
-Clicked on model: Queen and added to cart<br/>
-Items are displayed in checkout screen<br/>
- <a href='/selenium/screenshots/verifyItemNameAndQuantityPassedFromListingToCheckoutScreen1672577424665.png'> <img src='/selenium/screenshots/verifyItemNameAndQuantityPassedFromListingToCheckoutScreen1672577424665.png' height='400' width='800'/> </a>  <br/>
- <a href='/selenium/screenshots/verifyItemNameAndQuantityPassedFromListingToCheckoutScreen1672577425344.png'> <img src='/selenium/screenshots/verifyItemNameAndQuantityPassedFromListingToCheckoutScreen1672577425344.png' height='400' width='800'/> </a>  <br/>
+Clicked on model: Queen<br/>
+Model price: $2,249<br/>
+Navigated to checkout page<br/>
+ <a href='/selenium/screenshots/verifyFreeAddonsAndPricePassedFromListingToCheckoutScreen1672583409902.png'> <img src='/selenium/screenshots/verifyFreeAddonsAndPricePassedFromListingToCheckoutScreen1672583409902.png' height='400' width='800'/> </a>  <br/>
+ <a href='/selenium/screenshots/verifyFreeAddonsAndPricePassedFromListingToCheckoutScreen1672583411088.png'> <img src='/selenium/screenshots/verifyFreeAddonsAndPricePassedFromListingToCheckoutScreen1672583411088.png' height='400' width='800'/> </a>  <br/>
 </div>
 </td>
-<td><div><pre>java.lang.AssertionError: Item name and quantity of the selected product is displayed as the same in checkout screen expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:97)
-	at org.testng.Assert.failNotEquals(Assert.java:969)
-	at org.testng.Assert.assertTrue(Assert.java:43)
-	at OrderPlacement.verifyItemNameAndQuantityPassedFromListingToCheckoutScreen(OrderPlacement.java:180)
+<td><div><pre>java.lang.NoClassDefFoundError: Could not initialize class org.openqa.selenium.WebDriverException
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:316)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:115)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy17.sendKeys(Unknown Source)
+	at POM.CheckoutPage.enterDetails(CheckoutPage.java:55)
+	at OrderPlacement.verifyFreeAddonsAndPricePassedFromListingToCheckoutScreen(OrderPlacement.java:157)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -107,12 +124,28 @@ Items are displayed in checkout screen<br/>
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-</pre></div><a href='#' onClick='toggleBox("stack-trace2006908827", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2006908827'><pre>java.lang.AssertionError: Item name and quantity of the selected product is displayed as the same in checkout screen expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:97)
-	at org.testng.Assert.failNotEquals(Assert.java:969)
-	at org.testng.Assert.assertTrue(Assert.java:43)
-	at OrderPlacement.verifyItemNameAndQuantityPassedFromListingToCheckoutScreen(OrderPlacement.java:180)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2091068638", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2091068638'><pre>java.lang.NoClassDefFoundError: Could not initialize class org.openqa.selenium.WebDriverException
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:316)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:115)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy17.sendKeys(Unknown Source)
+	at POM.CheckoutPage.enterDetails(CheckoutPage.java:55)
+	at OrderPlacement.verifyFreeAddonsAndPricePassedFromListingToCheckoutScreen(OrderPlacement.java:157)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -129,7 +162,7 @@ Items are displayed in checkout screen<br/>
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:829)
 </pre></div></td>
-<td>17</td>
+<td>10</td>
 <td>OrderPlacement@53976f5c</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
@@ -141,23 +174,23 @@ Items are displayed in checkout screen<br/>
 </tr>
 <tr>
 <td title='OrderPlacement.verifyCheckoutFromProductsAddedToCart()'><b>verifyCheckoutFromProductsAddedToCart</b><br>Test class: OrderPlacement<br>Test method: Verify user is able to proceed to checkout screen using the add cart option<br/>
-<a href="#Output-2106903359" onClick='toggleBox("Output-2106903359", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-93091557" onClick='toggleBox("Output-93091557", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-2106903359" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2106903359">
+<a href="#Output-93091557" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-93091557">
 Navigated to: https://puffy.com/products/puffy-lux-mattress<br/>
 Clicked on items added to cart<br/>
 </div>
 </td>
 <td></td>
-<td>24</td>
+<td>26</td>
 <td>OrderPlacement@53976f5c</td></tr>
 <tr>
 <td title='OrderPlacement.verifyDefaultSelectedProductSpecs()'><b>verifyDefaultSelectedProductSpecs</b><br>Test class: OrderPlacement<br>Test method: Verify twin mattress is selected by default and verify its specifications<br/>
-<a href="#Output-383964674" onClick='toggleBox("Output-383964674", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1363994426" onClick='toggleBox("Output-1363994426", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-383964674" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-383964674">
+<a href="#Output-1363994426" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1363994426">
 Navigated to: https://puffy.com/products/puffy-lux-mattress<br/>
 Default model Twin is selected<br/>
 Verified default model: Twin specifications<br/>
@@ -168,10 +201,10 @@ Verified default model: Twin specifications<br/>
 <td>OrderPlacement@53976f5c</td></tr>
 <tr>
 <td title='OrderPlacement.verifyDeliveryStatusAndEstimatedDeliveryDate()'><b>verifyDeliveryStatusAndEstimatedDeliveryDate</b><br>Test class: OrderPlacement<br>Test method: Verify delivery status and verify expected shipment date is not displayed in past<br/>
-<a href="#Output-315971105" onClick='toggleBox("Output-315971105", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-456141160" onClick='toggleBox("Output-456141160", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-315971105" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-315971105">
+<a href="#Output-456141160" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-456141160">
 Navigated to: https://puffy.com/products/puffy-lux-mattress<br/>
 Estimated month of delivery date is:January<br/>
 Delivery status is Ready to ship<br/>
@@ -182,10 +215,10 @@ Delivery status is Ready to ship<br/>
 <td>OrderPlacement@53976f5c</td></tr>
 <tr>
 <td title='OrderPlacement.verifyDifferentSizesOfSameProductCanBeSelected()'><b>verifyDifferentSizesOfSameProductCanBeSelected</b><br>Test class: OrderPlacement<br>Test method: Verify user is able to select and view different sizes and their specs<br>Parameters: Twin XL, twin-xl, 38"W x 80"L x 12"H, $1,799<br/>
-<a href="#Output-407899743" onClick='toggleBox("Output-407899743", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1340069440" onClick='toggleBox("Output-1340069440", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-407899743" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-407899743">
+<a href="#Output-1340069440" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1340069440">
 Navigated to: https://puffy.com/products/puffy-lux-mattress<br/>
 Clicked on model: Twin XL<br/>
 Product size is displayed as: 38"W x 80"L x 12"H<br/>
@@ -193,14 +226,14 @@ Product price is displayed as: $1,799<br/>
 </div>
 </td>
 <td></td>
-<td>3</td>
+<td>4</td>
 <td>OrderPlacement@53976f5c</td></tr>
 <tr>
 <td title='OrderPlacement.verifyDifferentSizesOfSameProductCanBeSelected()'><b>verifyDifferentSizesOfSameProductCanBeSelected</b><br>Test class: OrderPlacement<br>Test method: Verify user is able to select and view different sizes and their specs<br>Parameters: Full, full, 54"W x 75"L x 12"H, $2,049<br/>
-<a href="#Output-1876621760" onClick='toggleBox("Output-1876621760", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1124118904" onClick='toggleBox("Output-1124118904", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1876621760" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1876621760">
+<a href="#Output-1124118904" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1124118904">
 Navigated to: https://puffy.com/products/puffy-lux-mattress<br/>
 Clicked on model: Full<br/>
 Product size is displayed as: 54"W x 75"L x 12"H<br/>
@@ -208,14 +241,14 @@ Product price is displayed as: $2,049<br/>
 </div>
 </td>
 <td></td>
-<td>2</td>
+<td>3</td>
 <td>OrderPlacement@53976f5c</td></tr>
 <tr>
 <td title='OrderPlacement.verifyDifferentSizesOfSameProductCanBeSelected()'><b>verifyDifferentSizesOfSameProductCanBeSelected</b><br>Test class: OrderPlacement<br>Test method: Verify user is able to select and view different sizes and their specs<br>Parameters: Queen, queen, 60"W x 80"L x 12"H, $2,249<br/>
-<a href="#Output-1061913966" onClick='toggleBox("Output-1061913966", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-751318618" onClick='toggleBox("Output-751318618", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1061913966" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1061913966">
+<a href="#Output-751318618" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-751318618">
 Navigated to: https://puffy.com/products/puffy-lux-mattress<br/>
 Clicked on model: Queen<br/>
 Product size is displayed as: 60"W x 80"L x 12"H<br/>
@@ -223,14 +256,14 @@ Product price is displayed as: $2,249<br/>
 </div>
 </td>
 <td></td>
-<td>2</td>
+<td>3</td>
 <td>OrderPlacement@53976f5c</td></tr>
 <tr>
 <td title='OrderPlacement.verifyDifferentSizesOfSameProductCanBeSelected()'><b>verifyDifferentSizesOfSameProductCanBeSelected</b><br>Test class: OrderPlacement<br>Test method: Verify user is able to select and view different sizes and their specs<br>Parameters: King, king, 76"W x 80"L x 12"H, $2,449<br/>
-<a href="#Output-608063650" onClick='toggleBox("Output-608063650", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-766445296" onClick='toggleBox("Output-766445296", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-608063650" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-608063650">
+<a href="#Output-766445296" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-766445296">
 Navigated to: https://puffy.com/products/puffy-lux-mattress<br/>
 Clicked on model: King<br/>
 Product size is displayed as: 76"W x 80"L x 12"H<br/>
@@ -242,10 +275,10 @@ Product price is displayed as: $2,449<br/>
 <td>OrderPlacement@53976f5c</td></tr>
 <tr>
 <td title='OrderPlacement.verifyDifferentSizesOfSameProductCanBeSelected()'><b>verifyDifferentSizesOfSameProductCanBeSelected</b><br>Test class: OrderPlacement<br>Test method: Verify user is able to select and view different sizes and their specs<br>Parameters: Cal King, cal-king, 72"W x 84"L x 12"H, $2,449<br/>
-<a href="#Output-1588343118" onClick='toggleBox("Output-1588343118", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-730671445" onClick='toggleBox("Output-730671445", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1588343118" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1588343118">
+<a href="#Output-730671445" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-730671445">
 Navigated to: https://puffy.com/products/puffy-lux-mattress<br/>
 Clicked on model: Cal King<br/>
 Product size is displayed as: 72"W x 84"L x 12"H<br/>
@@ -257,10 +290,10 @@ Product price is displayed as: $2,449<br/>
 <td>OrderPlacement@53976f5c</td></tr>
 <tr>
 <td title='OrderPlacement.verifyDifferentSizesOfSameProductCanBeSelected()'><b>verifyDifferentSizesOfSameProductCanBeSelected</b><br>Test class: OrderPlacement<br>Test method: Verify user is able to select and view different sizes and their specs<br>Parameters: Split King, split-king, 2 - 38"W x 80"L x 12"H, $3,598<br/>
-<a href="#Output-1814189886" onClick='toggleBox("Output-1814189886", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-332026034" onClick='toggleBox("Output-332026034", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1814189886" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1814189886">
+<a href="#Output-332026034" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-332026034">
 Navigated to: https://puffy.com/products/puffy-lux-mattress<br/>
 Clicked on model: Split King<br/>
 Product size is displayed as: 2 - 38"W x 80"L x 12"H<br/>
@@ -271,27 +304,11 @@ Product price is displayed as: $3,598<br/>
 <td>2</td>
 <td>OrderPlacement@53976f5c</td></tr>
 <tr>
-<td title='OrderPlacement.verifyFreeAddonsAndPricePassedFromListingToCheckoutScreen()'><b>verifyFreeAddonsAndPricePassedFromListingToCheckoutScreen</b><br>Test class: OrderPlacement<br>Test method: Verify free addons and price of the selected product is displayed as the same in checkout screen<br/>
-<a href="#Output-1389900765" onClick='toggleBox("Output-1389900765", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1389900765" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1389900765">
-Navigated to: https://puffy.com/products/puffy-lux-mattress<br/>
-Clicked on model: Queen<br/>
-Model price: $2,249<br/>
-Navigated to checkout page<br/>
-Checked out screen is displayed<br/>
-</div>
-</td>
-<td></td>
-<td>10</td>
-<td>OrderPlacement@53976f5c</td></tr>
-<tr>
 <td title='OrderPlacement.verifyImageAndVideoSlidesOnSelection()'><b>verifyImageAndVideoSlidesOnSelection</b><br>Test class: OrderPlacement<br>Test method: Verify user is able to view and select multiple slide images and videos of the product<br/>
-<a href="#Output-143233641" onClick='toggleBox("Output-143233641", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1731861194" onClick='toggleBox("Output-1731861194", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-143233641" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-143233641">
+<a href="#Output-1731861194" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1731861194">
 Navigated to: https://puffy.com/products/puffy-lux-mattress<br/>
 Product images/video slides are displayed<br/>
 </div>
@@ -300,11 +317,25 @@ Product images/video slides are displayed<br/>
 <td>4</td>
 <td>OrderPlacement@53976f5c</td></tr>
 <tr>
-<td title='OrderPlacement.verifyMultipleProductsCanBeAddedToCart()'><b>verifyMultipleProductsCanBeAddedToCart</b><br>Test class: OrderPlacement<br>Test method: Verify user is able to add multiple products to the cart for future purchase<br/>
-<a href="#Output-815488941" onClick='toggleBox("Output-815488941", this, "Show output", "Hide output");'>Show output</a>
+<td title='OrderPlacement.verifyItemNameAndQuantityPassedFromListingToCheckoutScreen()'><b>verifyItemNameAndQuantityPassedFromListingToCheckoutScreen</b><br>Test class: OrderPlacement<br>Test method: Verify item name and quantity of the selected product is displayed as the same in checkout screen<br/>
+<a href="#Output-1941631815" onClick='toggleBox("Output-1941631815", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-815488941" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-815488941">
+<a href="#Output-1941631815" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1941631815">
+Navigated to: https://puffy.com/products/puffy-lux-mattress<br/>
+Clicked on model: Queen and added to cart<br/>
+Items are displayed in checkout screen<br/>
+</div>
+</td>
+<td></td>
+<td>21</td>
+<td>OrderPlacement@53976f5c</td></tr>
+<tr>
+<td title='OrderPlacement.verifyMultipleProductsCanBeAddedToCart()'><b>verifyMultipleProductsCanBeAddedToCart</b><br>Test class: OrderPlacement<br>Test method: Verify user is able to add multiple products to the cart for future purchase<br/>
+<a href="#Output-1107811481" onClick='toggleBox("Output-1107811481", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1107811481" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1107811481">
 Navigated to: https://puffy.com/products/puffy-lux-mattress<br/>
 Product has been added to cart first time with items in cart count: 1<br/>
 Product has been added to cart second time<br/>
@@ -315,35 +346,35 @@ Product has been added to cart second time<br/>
 <td>OrderPlacement@53976f5c</td></tr>
 <tr>
 <td title='OrderPlacement.verifyProductCanBeCheckedOutUsingBuyNow()'><b>verifyProductCanBeCheckedOutUsingBuyNow</b><br>Test class: OrderPlacement<br>Test method: Verify user is able to guest checkout using buy now option<br/>
-<a href="#Output-1239160559" onClick='toggleBox("Output-1239160559", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-785684747" onClick='toggleBox("Output-785684747", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1239160559" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1239160559">
+<a href="#Output-785684747" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-785684747">
 Navigated to: https://puffy.com/products/puffy-lux-mattress<br/>
 Product has been checked out using Buy Now option<br/>
 </div>
 </td>
 <td></td>
-<td>13</td>
+<td>22</td>
 <td>OrderPlacement@53976f5c</td></tr>
 <tr>
 <td title='OrderPlacement.verifyProductFeaturesAndReasonsToBuy()'><b>verifyProductFeaturesAndReasonsToBuy</b><br>Test class: OrderPlacement<br>Test method: Verify product features and reasons to buy are displayed as expected<br/>
-<a href="#Output-1560036589" onClick='toggleBox("Output-1560036589", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1405114247" onClick='toggleBox("Output-1405114247", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1560036589" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1560036589">
+<a href="#Output-1405114247" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1405114247">
 Navigated to: https://puffy.com/products/puffy-lux-mattress<br/>
 </div>
 </td>
 <td></td>
-<td>3</td>
+<td>4</td>
 <td>OrderPlacement@53976f5c</td></tr>
 <tr>
 <td title='OrderPlacement.verifyProductIsListedOnUsingDeepLink()'><b>verifyProductIsListedOnUsingDeepLink</b><br>Test class: OrderPlacement<br>Test method: Verify successful redirection to puffy lux mattress on using deep link<br/>
-<a href="#Output-1722707834" onClick='toggleBox("Output-1722707834", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-2145236505" onClick='toggleBox("Output-2145236505", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1722707834" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1722707834">
+<a href="#Output-2145236505" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2145236505">
 Navigated to: https://puffy.com/products/puffy-lux-mattress<br/>
 </div>
 </td>
@@ -352,17 +383,17 @@ Navigated to: https://puffy.com/products/puffy-lux-mattress<br/>
 <td>OrderPlacement@53976f5c</td></tr>
 <tr>
 <td title='OrderPlacement.verifyProductReviewsRatingAndFAQs()'><b>verifyProductReviewsRatingAndFAQs</b><br>Test class: OrderPlacement<br>Test method: Verify user is able to view reviews, ratings and frequently asked questions of the product<br/>
-<a href="#Output-235672898" onClick='toggleBox("Output-235672898", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1218854949" onClick='toggleBox("Output-1218854949", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-235672898" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-235672898">
+<a href="#Output-1218854949" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1218854949">
 Navigated to: https://puffy.com/products/puffy-lux-mattress<br/>
 Product rating is displayed as >= 4<br/>
 Review and FAQ sections are displayed<br/>
 </div>
 </td>
 <td></td>
-<td>6</td>
+<td>7</td>
 <td>OrderPlacement@53976f5c</td></tr>
 </table><p>
 </body>
