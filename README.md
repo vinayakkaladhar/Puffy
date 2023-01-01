@@ -86,4 +86,4 @@ Chrome, Firefox
 ```
 ## Framework Specs
 
-![alt text](https://github.com/vinayakkaladhar/Puffy/main/AutomationFwFeatures.png?raw=true)
+![alt text](https://github.com/vinayakkaladhar/Puffy/blob/main/AutomationFwFeatures.png?raw=true)
