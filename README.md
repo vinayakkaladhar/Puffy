@@ -52,10 +52,10 @@ mvn clean test -Dbrowser=firefox|chrome
 
 ```
 
-> Open the project and navigate to testng.xml.
+> Open the project and search for testng.xml file.
 
 ```sh
-Right click and trigger run testng.xml
+Run the test by right click on the TestNG XML file and select Run As => TestNG Suite.
 ```
 
 ## Reports
@@ -71,6 +71,14 @@ Right click and trigger run testng.xml
 ## Screenshots
 ```Screenshots are available in the HTML reports.```
 ```Screenshots are also available in the screenshots folder appended with method name and time of execution.```
+
+## Setting up CI/CD pipeline on CodeMagic
+
+- Add a new application (https://codemagic.io/app)
+- Connect with the GitHub repository and select branch
+- Navigate to settings and configure build workflow using codemagic.yml
+- Push the code
+- Open the Codemagic (https://codemagic.io/app) CI/CD UI to check the run status
 
 ## Browsers Supported
 ```sh

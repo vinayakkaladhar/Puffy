@@ -49,7 +49,7 @@ public class OrderPlacement extends Utilities{
         Assert.assertTrue(result, "Product features and reasons to buy are displayed as expected");
     }
 
-    @Test(description = "Verify user is able to view reviews, ratings and frequently asked questions")
+    @Test(description = "Verify user is able to view reviews, ratings and frequently asked questions of the product")
     public void verifyProductReviewsRatingAndFAQs() throws InterruptedException {
         productListingPage.navigateTo(properties.getProperty("url"));
         Reporter.log("Navigated to: " + properties.getProperty("url"));
@@ -60,7 +60,7 @@ public class OrderPlacement extends Utilities{
         Assert.assertTrue(result, "Product reviews, ratings and frequently asked questions are displayed as expected");
     }
 
-    @Test(description = "Verify user is able to view and select multiple images and videos of the product")
+    @Test(description = "Verify user is able to view and select multiple slide images and videos of the product")
     public void verifyImageAndVideoSlidesOnSelection() throws InterruptedException {
         productListingPage.navigateTo(properties.getProperty("url"));
         Reporter.log("Navigated to: " + properties.getProperty("url"));
@@ -71,7 +71,7 @@ public class OrderPlacement extends Utilities{
     }
 
 
-    @Test(description = "Verify user is able to add multiple products to cart for future purchase")
+    @Test(description = "Verify user is able to add multiple products to the cart for future purchase")
     public void verifyMultipleProductsCanBeAddedToCart() throws InterruptedException {
         productListingPage.navigateTo(properties.getProperty("url"));
         Reporter.log("Navigated to: " + properties.getProperty("url"));
@@ -94,7 +94,7 @@ public class OrderPlacement extends Utilities{
         Assert.assertTrue(driver.getCurrentUrl().contains("checkout"), "User is able to guest checkout using buy now option");
     }
 
-    @Test(description = "Verify twin mattress is selected by default and verify is specifications")
+    @Test(description = "Verify twin mattress is selected by default and verify its specifications")
     public void verifyDefaultSelectedProductSpecs() throws InterruptedException {
         productListingPage.navigateTo(properties.getProperty("url"));
         Reporter.log("Navigated to: " + properties.getProperty("url"));
