@@ -76,9 +76,9 @@ Run the test by right click on the TestNG XML file and select Run As => TestNG S
 
 - Add a new application (https://codemagic.io/app)
 - Connect with the GitHub repository and select branch
-- Navigate to settings and configure build workflow using codemagic.yml
-- Push the code
-- Open the Codemagic (https://codemagic.io/app) CI/CD UI to check the run status
+- Navigate to settings and configure build workflow using codemagic.yml (https://docs.codemagic.io/yaml-basic-configuration/yaml-getting-started/)
+- Push the code (https://docs.codemagic.io/yaml-running-builds/starting-builds-automatically/)
+- Open the CodeMagic (https://codemagic.io/app) CI/CD UI to check the run status
 
 ## Browsers Supported
 ```sh

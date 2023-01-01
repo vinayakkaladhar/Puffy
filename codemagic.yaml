@@ -1,7 +1,10 @@
 workflows:
   UI-Automation:
     name: complile the project
+    triggering:
+      events:
+        - push
     scripts:
-        - cd selenium && mvn test
+      - cd selenium && mvn test
     artifacts:
-        - /target/*
+      - /target/*
