@@ -7,5 +7,4 @@ workflows:
     scripts:
       - cd selenium && mvn test
     artifacts:
-      - build/*
-      - build/puffy/selenium/target
+      - */**
