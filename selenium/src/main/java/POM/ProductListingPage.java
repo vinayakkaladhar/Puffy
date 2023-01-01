@@ -142,11 +142,13 @@ public class ProductListingPage extends Utilities {
     public boolean verifyProductImagesDisplayed(int numberOfImages) throws InterruptedException {
         boolean result;
         _productImages.get(3).click();
+        Thread.sleep(1000);
         result = _productImages.size()>=numberOfImages;
         return result;
     }
 
     public String getCurrentlyDisplayedImageSource() throws InterruptedException {
+        Utilities.explicitWait(_currentProductImage);
         return _currentProductImage.getAttribute("src");
     }
 

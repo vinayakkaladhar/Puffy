@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9e7ba75-5821-4a9a-9c24-5b2c9b2db13e" name="Changes" comment="" />
+    <list default="true" id="d9e7ba75-5821-4a9a-9c24-5b2c9b2db13e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/POM/ProductListingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/POM/ProductListingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/OrderPlacement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/OrderPlacement.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -207,7 +211,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/POM/ProductListingPage.java</url>
-          <line>205</line>
+          <line>207</line>
           <option name="timeStamp" value="116" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
