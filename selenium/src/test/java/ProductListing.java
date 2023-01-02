@@ -78,10 +78,11 @@ public class ProductListing extends Utilities{
         Reporter.log("Navigated to: " + properties.getProperty("url"));
         productListingPage.clickOnButton("Add to Cart");
         productListingPage.closeSubscriptionPopUp();
-        Reporter.log("Product has been added to cart first time with items in cart count: 1" );
+        Reporter.log("Product has been added to cart first time" );
         int count = Integer.valueOf(productListingPage.getCartCount());
         productListingPage.clickOnButton("Add to Cart");
         Reporter.log("Product has been added to cart second time");
+        Reporter.log("Verified items count after adding multiple products to cart");
         Assert.assertTrue(Integer.valueOf(productListingPage.getCartCount())>=count*2, "User is able to add multiple products to cart for future purchase");
     }
 

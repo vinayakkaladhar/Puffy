@@ -5,54 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9e7ba75-5821-4a9a-9c24-5b2c9b2db13e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/POM/CheckoutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/POM/CheckoutPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/POM/ProductListingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/POM/ProductListingPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/OrderPlacement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/POM/CheckoutPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/POM/ProductListingPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Utilities/ListenerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Utilities/Utilities.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/OrderPlacement.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/OrderPlacement.java.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/testng-failed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/failed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/jquery-3.4.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-OrderPlacement.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/OrderPlacement.java.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/classes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/groups.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods-alphabetical.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods-not-run.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/reporter-output.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/testng.xml.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/toc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/passed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/skipped.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/OrderPlacement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ProductListing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ProductListing.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
