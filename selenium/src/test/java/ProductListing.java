@@ -13,7 +13,7 @@ import java.util.Locale;
 import java.util.Properties;
 
 @Listeners(ListenerTest.class)
-public class OrderPlacement extends Utilities{
+public class ProductListing extends Utilities{
     public CheckoutPage checkoutPage;
     public ProductListingPage productListingPage;
     boolean result;
@@ -151,7 +151,7 @@ public class OrderPlacement extends Utilities{
         productListingPage.clickOnModel("Queen");
         Reporter.log("Clicked on model: " + "Queen");
         String price = productListingPage.getSelectedModelPrice();
-        int freeItemsCount = productListingPage.getFreeBundleForSelectedProduct();
+        int freeItemsCount = productListingPage.getFreeBundleSizeForSelectedProduct();
         Reporter.log("Model price: " + price);
         productListingPage.clickOnButton("Buy Now");
         Reporter.log("Navigated to checkout page");
@@ -169,16 +169,31 @@ public class OrderPlacement extends Utilities{
         productListingPage.clickOnButton("Add to Cart");
         productListingPage.closeSubscriptionPopUp();
         productListingPage.clickOnModel("Queen");
+        String price = productListingPage.getSelectedModelPrice();
         productListingPage.clickOnButton("Add to Cart");
         Reporter.log("Clicked on model: " + "Queen " + "and added to cart");
         productListingPage.clickOnCheckout();
         checkoutPage.enterDetails(properties.getProperty("username"));
-        result = checkoutPage.verifyItemDetailsOnCheckoutScreen("1","Queen","$2,249");
-        result = result && checkoutPage.verifyItemDetailsOnCheckoutScreen("2","White / Standard","Free");
-        result = result && checkoutPage.verifyItemDetailsOnCheckoutScreen("1","Queen","Free");
-        result = result && checkoutPage.verifyItemDetailsOnCheckoutScreen("1","Gray / Queen","Free");
+        driver.navigate().refresh();
+        result = checkoutPage.verifyItemDetailsOnCheckoutScreen("1","Queen", "Puffy Lux Hybrid", price);
+        result = result && checkoutPage.verifyItemDetailsOnCheckoutScreen("2","White / Standard","Puffy Pillow", "Free");
+        result = result && checkoutPage.verifyItemDetailsOnCheckoutScreen("1","Queen","Puffy Mattress Protector", "Free");
+        result = result && checkoutPage.verifyItemDetailsOnCheckoutScreen("1","Gray / Queen","Puffy Sheets", "Free");
         Reporter.log("Items are displayed in checkout screen");
         Assert.assertTrue(result, "Item name and quantity of the selected product is displayed as the same in checkout screen");
+    }
+
+    @Test(description = "Verify discounted price is displayed for the product if active coupon exists")
+    public void verifyDiscountPriceIsDisplayed() throws InterruptedException {
+        productListingPage.navigateTo(properties.getProperty("url"));
+        Reporter.log("Navigated to: " + properties.getProperty("url"));
+        if(productListingPage.getCouponCode()!=""){
+            String couponCode = productListingPage.getCouponCode();
+            String discountedPrice = productListingPage.getSelectedModelDiscountedPrice();
+            result = (discountedPrice!=""||discountedPrice!=null);
+            Reporter.log("Discount coupon code and discounted price is displayed");
+            Assert.assertTrue(result, "Discounted price is displayed for the product if active coupon exists");
+        }
     }
 
     public String getCurrentAndFutureMonth() {

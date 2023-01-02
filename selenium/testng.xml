@@ -3,8 +3,8 @@
     <listeners>
         <listener class-name="Utilities.ListenerTest"/>
     </listeners>
-    <test verbose="2" preserve-order="false" parallel="classes" name="OrderPlacement.java">
+    <test verbose="2" preserve-order="false" parallel="classes" name="ProductListing.java">
         <classes>
-            <class name="OrderPlacement"/>
+            <class name="ProductListing"/>
         </classes>
     </test></suite>

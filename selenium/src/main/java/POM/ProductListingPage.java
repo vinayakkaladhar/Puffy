@@ -75,6 +75,9 @@ public class ProductListingPage extends Utilities {
     @FindBy(xpath = ".//span[contains(@class,'js-variantNewPrice')]")
     public WebElement _selectedProductDiscountedPrize;
 
+    @FindBy(xpath = ".//span[contains(@class,'jsStickyABDiscountCode')]")
+    public WebElement _couponCode;
+
     @FindBy(xpath = ".//span[@id='jsShippingEstimate']")
     public WebElement _selectedProductShippingEstimate;
 
@@ -84,8 +87,11 @@ public class ProductListingPage extends Utilities {
     @FindBy(xpath = ".//div[@class='cart-checkout__action']//span")
     public WebElement _checkoutButton;
 
-    @FindBy(xpath = ".//div[contains(@class,'upsell-section__footer')]//div[contains(@class,'free-acc-box__title')]")
+    @FindBy(xpath = ".//div[contains(@class,'upsell-section__footer')]//div[@class='free-acc-box__list']/div[contains(@class,'free-acc-box__item')]/div[contains(@class,'free-acc-box__title')]")
     public List<WebElement> _freeBundle;
+
+    @FindBy(xpath = ".//div[contains(@class,'upsell-section__footer')]//div[@class='free-acc-box__list']/div[contains(@class,'free-acc-box__item')]/div[contains(@class,'free-acc-box__title')]")
+    public List<WebElement> _freeBundleInCart;
 
     @FindBy(xpath = ".//div[contains(@class,'popup__close')]")
     public WebElement _popUp;
@@ -197,6 +203,15 @@ public class ProductListingPage extends Utilities {
         return _selectedProductDiscountedPrize.getText();
     }
 
+    public String getCouponCode() throws InterruptedException {
+        try{
+            return _couponCode.getText();
+        }
+        catch (Exception e){
+            return "";
+        }
+    }
+
     public String getSelectedModelShippingEstimate() throws InterruptedException {
         return _selectedProductShippingEstimate.getText();
     }
@@ -213,11 +228,19 @@ public class ProductListingPage extends Utilities {
         _checkoutButton.click();
     }
 
-    public int getFreeBundleForSelectedProduct() throws InterruptedException {
+    public int getFreeBundleSizeForSelectedProduct() throws InterruptedException {
         return _freeBundle.size();
     }
 
     public boolean verifyShipmentStatus(String status) throws InterruptedException {
         return _selectedProductShippingStatus.getText().contains(status);
+    }
+
+    public String getFreeBundleItemsForSelectedProduct() throws InterruptedException {
+        String freeItemList = null;
+        for(WebElement e: _freeBundle){
+            freeItemList = freeItemList + " " + e.getText();
+        }
+        return freeItemList;
     }
 }

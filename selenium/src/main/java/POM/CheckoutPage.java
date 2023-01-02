@@ -39,7 +39,11 @@ public class CheckoutPage extends Utilities {
     @FindBy(xpath = ".//ul[@class='checkout-list']/li//div[contains(@class,'cart-line__prices')]/span[contains(@class,'cart-line__price--sale')]")
     public List<WebElement> _price;
 
+    @FindBy(xpath = ".//ul[@class='checkout-list']/li//a[@class='cart-line__title']")
+    public List<WebElement> _variant;
+
     public String getCheckoutPrice() throws InterruptedException {
+        Utilities.explicitWait(_totalCheckoutPrice);
         return _totalCheckoutPrice.getText();
     }
 
@@ -62,11 +66,26 @@ public class CheckoutPage extends Utilities {
         }
     }
 
-    public boolean verifyItemDetailsOnCheckoutScreen(String quantity, String productName, String price) throws InterruptedException {
-        Utilities.explicitWait(_checkedOutItems.get(0));
+    public void enterCouponDetails(String email, String code) throws InterruptedException {
+        try{
+            Utilities.explicitWait(_contactEmailAddress);
+            _contactEmailAddress.sendKeys(email);
+            if(_couponCode.isDisplayed()){
+                _couponCode.clear();
+                _couponCode.click();
+                _couponCode.sendKeys(code);
+                _checkoutSubmit.click();
+                Thread.sleep(5000);
+            }
+        }catch (Exception e){
+
+        }
+    }
+
+    public boolean verifyItemDetailsOnCheckoutScreen(String quantity, String productName, String variant, String price) throws InterruptedException {
         for(int i=0;i<_checkedOutItems.size();i++){
            if( _quantity.get(i).getText().contains(quantity) &&
-            _name.get(i).getText().contains(productName) &&
+            _name.get(i).getText().contains(productName) && _variant.get(i).getText().contains(variant) &&
             _price.get(i).getText().contains(price)){
                return true;
            }
